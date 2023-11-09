@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<!-- This site is optimized with the Yoast SEO plugin v21.5 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Red Teaming | Banshie</title>
+	<meta name="description" content="Red Team (RT) Engagements are scenario-based engagements driven by specific threat goals.">
+	<link rel="canonical" href="/red-team/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Red Teaming | Banshie">
+	<meta property="og:description" content="Red Team (RT) Engagements are scenario-based engagements driven by specific threat goals.">
+	<meta property="og:url" content="/red-team/">
+	<meta property="og:site_name" content="Banshie Cybersecurity Services">
+	<meta property="article:modified_time" content="2023-11-09T06:12:06+00:00">
+	<meta property="og:image" content="/wp-content/uploads/2023/10/tiber-mobile-bg.png">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@banshie">
+	<meta name="twitter:label1" content="Est. reading time">
+	<meta name="twitter:data1" content="8 minutes">
+	<script type="application/ld+json" class="yoast-schema-graph">{
+	    "@context": "https://schema.org",
+	    "@graph": [
+	        {
+	            "@type": "WebPage",
+	            "@id": "/red-team/",
+	            "url": "/red-team/",
+	            "name": "Red Teaming | Banshie",
+	            "isPartOf": {
+	                "@id": "/#website"
+	            },
+	            "primaryImageOfPage": {
+	                "@id": "/red-team/#primaryimage"
+	            },
+	            "image": {
+	                "@id": "/red-team/#primaryimage"
+	            },
+	            "thumbnailUrl": "/wp-content/uploads/2023/10/tiber-mobile-bg.png",
+	            "datePublished": "2023-10-13T14:50:25+00:00",
+	            "dateModified": "2023-11-09T06:12:06+00:00",
+	            "description": "Red Team (RT) Engagements are scenario-based engagements driven by specific threat goals.",
+	            "breadcrumb": {
+	                "@id": "/red-team/#breadcrumb"
+	            },
+	            "inLanguage": "en-US",
+	            "potentialAction": [
+	                {
+	                    "@type": "ReadAction",
+	                    "target": [
+	                        "/red-team/"
+	                    ]
+	                }
+	            ]
+	        },
+	        {
+	            "@type": "ImageObject",
+	            "inLanguage": "en-US",
+	            "@id": "/red-team/#primaryimage",
+	            "url": "/wp-content/uploads/2023/10/tiber-mobile-bg.png",
+	            "contentUrl": "/wp-content/uploads/2023/10/tiber-mobile-bg.png",
+	            "width": 744,
+	            "height": 514,
+	            "caption": "tiber mobile bg"
+	        },
+	        {
+	            "@type": "BreadcrumbList",
+	            "@id": "/red-team/#breadcrumb",
+	            "itemListElement": [
+	                {
+	                    "@type": "ListItem",
+	                    "position": 1,
+	                    "name": "Home",
+	                    "item": "/"
+	                },
+	                {
+	                    "@type": "ListItem",
+	                    "position": 2,
+	                    "name": "Tiber | Banshie"
+	                }
+	            ]
+	        },
+	        {
+	            "@type": "WebSite",
+	            "@id": "/#website",
+	            "url": "/",
+	            "name": "Banshie Cybersecurity Services",
+	            "description": "",
+	            "alternateName": "Cybersecurity Services | Banshie",
+	            "potentialAction": [
+	                {
+	                    "@type": "SearchAction",
+	                    "target": {
+	                        "@type": "EntryPoint",
+	                        "urlTemplate": "/?s={search_term_string}"
+	                    },
+	                    "query-input": "required name=search_term_string"
+	                }
+	            ],
+	            "inLanguage": "en-US"
+	        }
+	    ]
+	}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Banshie Cybersecurity Services &raquo; Feed" href="/feed/">
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.4.1" media="all">
+<style id="classic-theme-styles-inline-css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="hello-elementor-css" href="/wp-content/themes/hello-elementor/style.min.css?ver=2.9.0" media="all">
+<link rel="stylesheet" id="hello-elementor-theme-style-css" href="/wp-content/themes/hello-elementor/theme.min.css?ver=2.9.0" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.17.3" media="all">
+<style id="elementor-frontend-inline-css">@-webkit-keyframes ha_fadeIn{0%{opacity:0}to{opacity:1}}@keyframes ha_fadeIn{0%{opacity:0}to{opacity:1}}@-webkit-keyframes ha_zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}@keyframes ha_zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}@-webkit-keyframes ha_rollIn{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0) rotate3d(0,0,1,-120deg);transform:translate3d(-100%,0,0) rotate3d(0,0,1,-120deg)}to{opacity:1}}@keyframes ha_rollIn{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0) rotate3d(0,0,1,-120deg);transform:translate3d(-100%,0,0) rotate3d(0,0,1,-120deg)}to{opacity:1}}@-webkit-keyframes ha_bounce{0%,20%,53%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}40%,43%{-webkit-transform:translate3d(0,-30px,0) scaleY(1.1);transform:translate3d(0,-30px,0) scaleY(1.1);-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0) scaleY(1.05);transform:translate3d(0,-15px,0) scaleY(1.05);-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}80%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translate3d(0,0,0) scaleY(.95);transform:translate3d(0,0,0) scaleY(.95)}90%{-webkit-transform:translate3d(0,-4px,0) scaleY(1.02);transform:translate3d(0,-4px,0) scaleY(1.02)}}@keyframes ha_bounce{0%,20%,53%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}40%,43%{-webkit-transform:translate3d(0,-30px,0) scaleY(1.1);transform:translate3d(0,-30px,0) scaleY(1.1);-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0) scaleY(1.05);transform:translate3d(0,-15px,0) scaleY(1.05);-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}80%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translate3d(0,0,0) scaleY(.95);transform:translate3d(0,0,0) scaleY(.95)}90%{-webkit-transform:translate3d(0,-4px,0) scaleY(1.02);transform:translate3d(0,-4px,0) scaleY(1.02)}}@-webkit-keyframes ha_bounceIn{0%,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1}}@keyframes ha_bounceIn{0%,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1}}@-webkit-keyframes ha_flipInX{0%{opacity:0;-webkit-transform:perspective(400px) rotate3d(1,0,0,90deg);transform:perspective(400px) rotate3d(1,0,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotate3d(1,0,0,-20deg);transform:perspective(400px) rotate3d(1,0,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{opacity:1;-webkit-transform:perspective(400px) rotate3d(1,0,0,10deg);transform:perspective(400px) rotate3d(1,0,0,10deg)}80%{-webkit-transform:perspective(400px) rotate3d(1,0,0,-5deg);transform:perspective(400px) rotate3d(1,0,0,-5deg)}}@keyframes ha_flipInX{0%{opacity:0;-webkit-transform:perspective(400px) rotate3d(1,0,0,90deg);transform:perspective(400px) rotate3d(1,0,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotate3d(1,0,0,-20deg);transform:perspective(400px) rotate3d(1,0,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{opacity:1;-webkit-transform:perspective(400px) rotate3d(1,0,0,10deg);transform:perspective(400px) rotate3d(1,0,0,10deg)}80%{-webkit-transform:perspective(400px) rotate3d(1,0,0,-5deg);transform:perspective(400px) rotate3d(1,0,0,-5deg)}}@-webkit-keyframes ha_flipInY{0%{opacity:0;-webkit-transform:perspective(400px) rotate3d(0,1,0,90deg);transform:perspective(400px) rotate3d(0,1,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotate3d(0,1,0,-20deg);transform:perspective(400px) rotate3d(0,1,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{opacity:1;-webkit-transform:perspective(400px) rotate3d(0,1,0,10deg);transform:perspective(400px) rotate3d(0,1,0,10deg)}80%{-webkit-transform:perspective(400px) rotate3d(0,1,0,-5deg);transform:perspective(400px) rotate3d(0,1,0,-5deg)}}@keyframes ha_flipInY{0%{opacity:0;-webkit-transform:perspective(400px) rotate3d(0,1,0,90deg);transform:perspective(400px) rotate3d(0,1,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotate3d(0,1,0,-20deg);transform:perspective(400px) rotate3d(0,1,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{opacity:1;-webkit-transform:perspective(400px) rotate3d(0,1,0,10deg);transform:perspective(400px) rotate3d(0,1,0,10deg)}80%{-webkit-transform:perspective(400px) rotate3d(0,1,0,-5deg);transform:perspective(400px) rotate3d(0,1,0,-5deg)}}@-webkit-keyframes ha_swing{20%{-webkit-transform:rotate3d(0,0,1,15deg);transform:rotate3d(0,0,1,15deg)}40%{-webkit-transform:rotate3d(0,0,1,-10deg);transform:rotate3d(0,0,1,-10deg)}60%{-webkit-transform:rotate3d(0,0,1,5deg);transform:rotate3d(0,0,1,5deg)}80%{-webkit-transform:rotate3d(0,0,1,-5deg);transform:rotate3d(0,0,1,-5deg)}}@keyframes ha_swing{20%{-webkit-transform:rotate3d(0,0,1,15deg);transform:rotate3d(0,0,1,15deg)}40%{-webkit-transform:rotate3d(0,0,1,-10deg);transform:rotate3d(0,0,1,-10deg)}60%{-webkit-transform:rotate3d(0,0,1,5deg);transform:rotate3d(0,0,1,5deg)}80%{-webkit-transform:rotate3d(0,0,1,-5deg);transform:rotate3d(0,0,1,-5deg)}}@-webkit-keyframes ha_slideInDown{0%{visibility:visible;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}@keyframes ha_slideInDown{0%{visibility:visible;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}@-webkit-keyframes ha_slideInUp{0%{visibility:visible;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}@keyframes ha_slideInUp{0%{visibility:visible;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}@-webkit-keyframes ha_slideInLeft{0%{visibility:visible;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}@keyframes ha_slideInLeft{0%{visibility:visible;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}@-webkit-keyframes ha_slideInRight{0%{visibility:visible;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}@keyframes ha_slideInRight{0%{visibility:visible;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}.ha_fadeIn{-webkit-animation-name:ha_fadeIn;animation-name:ha_fadeIn}.ha_zoomIn{-webkit-animation-name:ha_zoomIn;animation-name:ha_zoomIn}.ha_rollIn{-webkit-animation-name:ha_rollIn;animation-name:ha_rollIn}.ha_bounce{-webkit-transform-origin:center bottom;-ms-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-name:ha_bounce;animation-name:ha_bounce}.ha_bounceIn{-webkit-animation-name:ha_bounceIn;animation-name:ha_bounceIn;-webkit-animation-duration:.75s;-webkit-animation-duration:calc(var(--animate-duration)*.75);animation-duration:.75s;animation-duration:calc(var(--animate-duration)*.75)}.ha_flipInX,.ha_flipInY{-webkit-animation-name:ha_flipInX;animation-name:ha_flipInX;-webkit-backface-visibility:visible!important;backface-visibility:visible!important}.ha_flipInY{-webkit-animation-name:ha_flipInY;animation-name:ha_flipInY}.ha_swing{-webkit-transform-origin:top center;-ms-transform-origin:top center;transform-origin:top center;-webkit-animation-name:ha_swing;animation-name:ha_swing}.ha_slideInDown{-webkit-animation-name:ha_slideInDown;animation-name:ha_slideInDown}.ha_slideInUp{-webkit-animation-name:ha_slideInUp;animation-name:ha_slideInUp}.ha_slideInLeft{-webkit-animation-name:ha_slideInLeft;animation-name:ha_slideInLeft}.ha_slideInRight{-webkit-animation-name:ha_slideInRight;animation-name:ha_slideInRight}.ha-css-transform-yes{-webkit-transition-duration:var(--ha-tfx-transition-duration, .2s);transition-duration:var(--ha-tfx-transition-duration, .2s);-webkit-transition-property:-webkit-transform;transition-property:transform;transition-property:transform,-webkit-transform;-webkit-transform:translate(var(--ha-tfx-translate-x, 0),var(--ha-tfx-translate-y, 0)) scale(var(--ha-tfx-scale-x, 1),var(--ha-tfx-scale-y, 1)) skew(var(--ha-tfx-skew-x, 0),var(--ha-tfx-skew-y, 0)) rotateX(var(--ha-tfx-rotate-x, 0)) rotateY(var(--ha-tfx-rotate-y, 0)) rotateZ(var(--ha-tfx-rotate-z, 0));transform:translate(var(--ha-tfx-translate-x, 0),var(--ha-tfx-translate-y, 0)) scale(var(--ha-tfx-scale-x, 1),var(--ha-tfx-scale-y, 1)) skew(var(--ha-tfx-skew-x, 0),var(--ha-tfx-skew-y, 0)) rotateX(var(--ha-tfx-rotate-x, 0)) rotateY(var(--ha-tfx-rotate-y, 0)) rotateZ(var(--ha-tfx-rotate-z, 0))}.ha-css-transform-yes:hover{-webkit-transform:translate(var(--ha-tfx-translate-x-hover, var(--ha-tfx-translate-x, 0)),var(--ha-tfx-translate-y-hover, var(--ha-tfx-translate-y, 0))) scale(var(--ha-tfx-scale-x-hover, var(--ha-tfx-scale-x, 1)),var(--ha-tfx-scale-y-hover, var(--ha-tfx-scale-y, 1))) skew(var(--ha-tfx-skew-x-hover, var(--ha-tfx-skew-x, 0)),var(--ha-tfx-skew-y-hover, var(--ha-tfx-skew-y, 0))) rotateX(var(--ha-tfx-rotate-x-hover, var(--ha-tfx-rotate-x, 0))) rotateY(var(--ha-tfx-rotate-y-hover, var(--ha-tfx-rotate-y, 0))) rotateZ(var(--ha-tfx-rotate-z-hover, var(--ha-tfx-rotate-z, 0)));transform:translate(var(--ha-tfx-translate-x-hover, var(--ha-tfx-translate-x, 0)),var(--ha-tfx-translate-y-hover, var(--ha-tfx-translate-y, 0))) scale(var(--ha-tfx-scale-x-hover, var(--ha-tfx-scale-x, 1)),var(--ha-tfx-scale-y-hover, var(--ha-tfx-scale-y, 1))) skew(var(--ha-tfx-skew-x-hover, var(--ha-tfx-skew-x, 0)),var(--ha-tfx-skew-y-hover, var(--ha-tfx-skew-y, 0))) rotateX(var(--ha-tfx-rotate-x-hover, var(--ha-tfx-rotate-x, 0))) rotateY(var(--ha-tfx-rotate-y-hover, var(--ha-tfx-rotate-y, 0))) rotateZ(var(--ha-tfx-rotate-z-hover, var(--ha-tfx-rotate-z, 0)))}.happy-addon>.elementor-widget-container{word-wrap:break-word;overflow-wrap:break-word}.happy-addon>.elementor-widget-container,.happy-addon>.elementor-widget-container *{-webkit-box-sizing:border-box;box-sizing:border-box}.happy-addon p:empty{display:none}.happy-addon .elementor-inline-editing{min-height:auto!important}.happy-addon-pro img{max-width:100%;height:auto;-o-object-fit:cover;object-fit:cover}.ha-screen-reader-text{position:absolute;overflow:hidden;clip:rect(1px,1px,1px,1px);margin:-1px;padding:0;width:1px;height:1px;border:0;word-wrap:normal!important;-webkit-clip-path:inset(50%);clip-path:inset(50%)}.ha-has-bg-overlay>.elementor-widget-container{position:relative;z-index:1}.ha-has-bg-overlay>.elementor-widget-container:before{position:absolute;top:0;left:0;z-index:-1;width:100%;height:100%;content:""}.ha-popup--is-enabled .ha-js-popup,.ha-popup--is-enabled .ha-js-popup img{cursor:-webkit-zoom-in!important;cursor:zoom-in!important}.mfp-wrap .mfp-arrow,.mfp-wrap .mfp-close{background-color:transparent}.mfp-wrap .mfp-arrow:focus,.mfp-wrap .mfp-close:focus{outline-width:thin}.ha-advanced-tooltip-enable{position:relative;cursor:pointer;--ha-tooltip-arrow-color:black;--ha-tooltip-arrow-distance:0}.ha-advanced-tooltip-enable .ha-advanced-tooltip-content{position:absolute;z-index:999;display:none;padding:5px 0;width:120px;height:auto;border-radius:6px;background-color:#000;color:#fff;text-align:center;opacity:0}.ha-advanced-tooltip-enable .ha-advanced-tooltip-content::after{position:absolute;border-width:5px;border-style:solid;content:""}.ha-advanced-tooltip-enable .ha-advanced-tooltip-content.no-arrow::after{visibility:hidden}.ha-advanced-tooltip-enable .ha-advanced-tooltip-content.show{display:inline-block;opacity:1}.ha-advanced-tooltip-enable.ha-advanced-tooltip-top .ha-advanced-tooltip-content,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-top .ha-advanced-tooltip-content{top:unset;right:0;bottom:calc(101% + var(--ha-tooltip-arrow-distance));left:0;margin:0 auto}.ha-advanced-tooltip-enable.ha-advanced-tooltip-top .ha-advanced-tooltip-content::after,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-top .ha-advanced-tooltip-content::after{top:100%;right:unset;bottom:unset;left:50%;border-color:var(--ha-tooltip-arrow-color) transparent transparent transparent;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-bottom .ha-advanced-tooltip-content,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-bottom .ha-advanced-tooltip-content{top:calc(101% + var(--ha-tooltip-arrow-distance));right:0;bottom:unset;left:0;margin:0 auto}.ha-advanced-tooltip-enable.ha-advanced-tooltip-bottom .ha-advanced-tooltip-content::after,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-bottom .ha-advanced-tooltip-content::after{top:unset;right:unset;bottom:100%;left:50%;border-color:transparent transparent var(--ha-tooltip-arrow-color) transparent;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-left .ha-advanced-tooltip-content,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-left .ha-advanced-tooltip-content{top:50%;right:calc(101% + var(--ha-tooltip-arrow-distance));bottom:unset;left:unset;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-left .ha-advanced-tooltip-content::after,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-left .ha-advanced-tooltip-content::after{top:50%;right:unset;bottom:unset;left:100%;border-color:transparent transparent transparent var(--ha-tooltip-arrow-color);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-right .ha-advanced-tooltip-content,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-right .ha-advanced-tooltip-content{top:50%;right:unset;bottom:unset;left:calc(101% + var(--ha-tooltip-arrow-distance));-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-right .ha-advanced-tooltip-content::after,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-right .ha-advanced-tooltip-content::after{top:50%;right:100%;bottom:unset;left:unset;border-color:transparent var(--ha-tooltip-arrow-color) transparent transparent;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-top .ha-advanced-tooltip-content{top:unset;right:0;bottom:calc(101% + var(--ha-tooltip-arrow-distance));left:0;margin:0 auto}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-top .ha-advanced-tooltip-content::after{top:100%;right:unset;bottom:unset;left:50%;border-color:var(--ha-tooltip-arrow-color) transparent transparent transparent;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-bottom .ha-advanced-tooltip-content{top:calc(101% + var(--ha-tooltip-arrow-distance));right:0;bottom:unset;left:0;margin:0 auto}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-bottom .ha-advanced-tooltip-content::after{top:unset;right:unset;bottom:100%;left:50%;border-color:transparent transparent var(--ha-tooltip-arrow-color) transparent;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-left .ha-advanced-tooltip-content{top:50%;right:calc(101% + var(--ha-tooltip-arrow-distance));bottom:unset;left:unset;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-left .ha-advanced-tooltip-content::after{top:50%;right:unset;bottom:unset;left:100%;border-color:transparent transparent transparent var(--ha-tooltip-arrow-color);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-right .ha-advanced-tooltip-content{top:50%;right:unset;bottom:unset;left:calc(101% + var(--ha-tooltip-arrow-distance));-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-right .ha-advanced-tooltip-content::after{top:50%;right:100%;bottom:unset;left:unset;border-color:transparent var(--ha-tooltip-arrow-color) transparent transparent;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body.elementor-editor-active .happy-addon.ha-gravityforms .gform_wrapper{display:block!important}.ha-scroll-to-top-wrap.ha-scroll-to-top-hide{display:none}.ha-scroll-to-top-wrap.edit-mode,.ha-scroll-to-top-wrap.single-page-off{display:none!important}.ha-scroll-to-top-button{position:fixed;right:15px;bottom:15px;z-index:9999;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;width:50px;height:50px;border-radius:50px;background-color:#5636d1;color:#fff;text-align:center;opacity:1;cursor:pointer;-webkit-transition:all .3s;transition:all .3s}.ha-scroll-to-top-button i{color:#fff;font-size:16px}.ha-scroll-to-top-button:hover{background-color:#e2498a}.ha-particle-wrapper{position:absolute;top:0;left:0;width:100%;height:100%}.ha-floating-element{position:fixed;z-index:999}.ha-floating-element-align-top-left .ha-floating-element{top:0;left:0}.ha-floating-element-align-top-right .ha-floating-element{top:0;right:0}.ha-floating-element-align-top-center .ha-floating-element{top:0;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}.ha-floating-element-align-middle-left .ha-floating-element{top:50%;left:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.ha-floating-element-align-middle-right .ha-floating-element{top:50%;right:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.ha-floating-element-align-bottom-left .ha-floating-element{bottom:0;left:0}.ha-floating-element-align-bottom-right .ha-floating-element{right:0;bottom:0}.ha-floating-element-align-bottom-center .ha-floating-element{bottom:0;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}.ha-editor-placeholder{padding:20px;border:5px double #f1f1f1;background:#f8f8f8;text-align:center;opacity:.5}.ha-editor-placeholder-title{margin-top:0;margin-bottom:8px;font-weight:700;font-size:16px}.ha-editor-placeholder-content{margin:0;font-size:12px}.ha-p-relative{position:relative}.ha-p-absolute{position:absolute}.ha-p-fixed{position:fixed}.ha-w-1{width:1%}.ha-h-1{height:1%}.ha-w-2{width:2%}.ha-h-2{height:2%}.ha-w-3{width:3%}.ha-h-3{height:3%}.ha-w-4{width:4%}.ha-h-4{height:4%}.ha-w-5{width:5%}.ha-h-5{height:5%}.ha-w-6{width:6%}.ha-h-6{height:6%}.ha-w-7{width:7%}.ha-h-7{height:7%}.ha-w-8{width:8%}.ha-h-8{height:8%}.ha-w-9{width:9%}.ha-h-9{height:9%}.ha-w-10{width:10%}.ha-h-10{height:10%}.ha-w-11{width:11%}.ha-h-11{height:11%}.ha-w-12{width:12%}.ha-h-12{height:12%}.ha-w-13{width:13%}.ha-h-13{height:13%}.ha-w-14{width:14%}.ha-h-14{height:14%}.ha-w-15{width:15%}.ha-h-15{height:15%}.ha-w-16{width:16%}.ha-h-16{height:16%}.ha-w-17{width:17%}.ha-h-17{height:17%}.ha-w-18{width:18%}.ha-h-18{height:18%}.ha-w-19{width:19%}.ha-h-19{height:19%}.ha-w-20{width:20%}.ha-h-20{height:20%}.ha-w-21{width:21%}.ha-h-21{height:21%}.ha-w-22{width:22%}.ha-h-22{height:22%}.ha-w-23{width:23%}.ha-h-23{height:23%}.ha-w-24{width:24%}.ha-h-24{height:24%}.ha-w-25{width:25%}.ha-h-25{height:25%}.ha-w-26{width:26%}.ha-h-26{height:26%}.ha-w-27{width:27%}.ha-h-27{height:27%}.ha-w-28{width:28%}.ha-h-28{height:28%}.ha-w-29{width:29%}.ha-h-29{height:29%}.ha-w-30{width:30%}.ha-h-30{height:30%}.ha-w-31{width:31%}.ha-h-31{height:31%}.ha-w-32{width:32%}.ha-h-32{height:32%}.ha-w-33{width:33%}.ha-h-33{height:33%}.ha-w-34{width:34%}.ha-h-34{height:34%}.ha-w-35{width:35%}.ha-h-35{height:35%}.ha-w-36{width:36%}.ha-h-36{height:36%}.ha-w-37{width:37%}.ha-h-37{height:37%}.ha-w-38{width:38%}.ha-h-38{height:38%}.ha-w-39{width:39%}.ha-h-39{height:39%}.ha-w-40{width:40%}.ha-h-40{height:40%}.ha-w-41{width:41%}.ha-h-41{height:41%}.ha-w-42{width:42%}.ha-h-42{height:42%}.ha-w-43{width:43%}.ha-h-43{height:43%}.ha-w-44{width:44%}.ha-h-44{height:44%}.ha-w-45{width:45%}.ha-h-45{height:45%}.ha-w-46{width:46%}.ha-h-46{height:46%}.ha-w-47{width:47%}.ha-h-47{height:47%}.ha-w-48{width:48%}.ha-h-48{height:48%}.ha-w-49{width:49%}.ha-h-49{height:49%}.ha-w-50{width:50%}.ha-h-50{height:50%}.ha-w-51{width:51%}.ha-h-51{height:51%}.ha-w-52{width:52%}.ha-h-52{height:52%}.ha-w-53{width:53%}.ha-h-53{height:53%}.ha-w-54{width:54%}.ha-h-54{height:54%}.ha-w-55{width:55%}.ha-h-55{height:55%}.ha-w-56{width:56%}.ha-h-56{height:56%}.ha-w-57{width:57%}.ha-h-57{height:57%}.ha-w-58{width:58%}.ha-h-58{height:58%}.ha-w-59{width:59%}.ha-h-59{height:59%}.ha-w-60{width:60%}.ha-h-60{height:60%}.ha-w-61{width:61%}.ha-h-61{height:61%}.ha-w-62{width:62%}.ha-h-62{height:62%}.ha-w-63{width:63%}.ha-h-63{height:63%}.ha-w-64{width:64%}.ha-h-64{height:64%}.ha-w-65{width:65%}.ha-h-65{height:65%}.ha-w-66{width:66%}.ha-h-66{height:66%}.ha-w-67{width:67%}.ha-h-67{height:67%}.ha-w-68{width:68%}.ha-h-68{height:68%}.ha-w-69{width:69%}.ha-h-69{height:69%}.ha-w-70{width:70%}.ha-h-70{height:70%}.ha-w-71{width:71%}.ha-h-71{height:71%}.ha-w-72{width:72%}.ha-h-72{height:72%}.ha-w-73{width:73%}.ha-h-73{height:73%}.ha-w-74{width:74%}.ha-h-74{height:74%}.ha-w-75{width:75%}.ha-h-75{height:75%}.ha-w-76{width:76%}.ha-h-76{height:76%}.ha-w-77{width:77%}.ha-h-77{height:77%}.ha-w-78{width:78%}.ha-h-78{height:78%}.ha-w-79{width:79%}.ha-h-79{height:79%}.ha-w-80{width:80%}.ha-h-80{height:80%}.ha-w-81{width:81%}.ha-h-81{height:81%}.ha-w-82{width:82%}.ha-h-82{height:82%}.ha-w-83{width:83%}.ha-h-83{height:83%}.ha-w-84{width:84%}.ha-h-84{height:84%}.ha-w-85{width:85%}.ha-h-85{height:85%}.ha-w-86{width:86%}.ha-h-86{height:86%}.ha-w-87{width:87%}.ha-h-87{height:87%}.ha-w-88{width:88%}.ha-h-88{height:88%}.ha-w-89{width:89%}.ha-h-89{height:89%}.ha-w-90{width:90%}.ha-h-90{height:90%}.ha-w-91{width:91%}.ha-h-91{height:91%}.ha-w-92{width:92%}.ha-h-92{height:92%}.ha-w-93{width:93%}.ha-h-93{height:93%}.ha-w-94{width:94%}.ha-h-94{height:94%}.ha-w-95{width:95%}.ha-h-95{height:95%}.ha-w-96{width:96%}.ha-h-96{height:96%}.ha-w-97{width:97%}.ha-h-97{height:97%}.ha-w-98{width:98%}.ha-h-98{height:98%}.ha-w-99{width:99%}.ha-h-99{height:99%}.ha-w-100{width:100%}.ha-h-100{height:100%}.ha-flex{display:-webkit-box!important;display:-webkit-flex!important;display:-ms-flexbox!important;display:flex!important}.ha-flex-inline{display:-webkit-inline-box!important;display:-webkit-inline-flex!important;display:-ms-inline-flexbox!important;display:inline-flex!important}.ha-flex-x-start{-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start}.ha-flex-x-end{-webkit-box-pack:end;-ms-flex-pack:end;-webkit-justify-content:flex-end;justify-content:flex-end}.ha-flex-x-between{-webkit-box-pack:justify;-ms-flex-pack:justify;-webkit-justify-content:space-between;justify-content:space-between}.ha-flex-x-around{-ms-flex-pack:distribute;-webkit-justify-content:space-around;justify-content:space-around}.ha-flex-x-even{-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;-webkit-justify-content:space-evenly;justify-content:space-evenly}.ha-flex-x-center{-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center}.ha-flex-y-top{-webkit-box-align:start;-webkit-align-items:flex-start;align-items:flex-start;-ms-flex-align:start}.ha-flex-y-center{-webkit-box-align:center;-webkit-align-items:center;align-items:center;-ms-flex-align:center}.ha-flex-y-bottom{-webkit-box-align:end;-webkit-align-items:flex-end;align-items:flex-end;-ms-flex-align:end}</style>
+<link rel="stylesheet" id="elementor-post-13-css" href="/wp-content/uploads/elementor/css/post-13.css?ver=1699507988" media="all">
+<link rel="stylesheet" id="elementor-icons-css" href="/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.23.0" media="all">
+<link rel="stylesheet" id="swiper-css" href="/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5" media="all">
+<link rel="stylesheet" id="elementor-pro-css" href="/wp-content/plugins/elementorpro-3171/assets/css/frontend-lite.min.css?ver=3.17.1" media="all">
+<link rel="stylesheet" id="font-awesome-5-all-css" href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.17.3" media="all">
+<link rel="stylesheet" id="font-awesome-4-shim-css" href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.17.3" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="/wp-content/uploads/elementor/css/global.css?ver=1699507989" media="all">
+<link rel="stylesheet" id="elementor-post-5200-css" href="/wp-content/uploads/elementor/css/post-5200.css?ver=1699516394" media="all">
+<link rel="stylesheet" id="elementor-post-18-css" href="/wp-content/uploads/elementor/css/post-18.css?ver=1699507990" media="all">
+<link rel="stylesheet" id="happy-icons-css" href="/wp-content/plugins/happy-elementor-addons/assets/fonts/style.min.css?ver=3.9.1.1" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0" media="all">
+<link rel="stylesheet" id="elementor-post-663-css" href="/wp-content/uploads/elementor/css/post-663.css?ver=1699507990" media="all">
+<link rel="stylesheet" id="elementor-post-1690-css" href="/wp-content/uploads/elementor/css/post-1690.css?ver=1699507991" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CLexend+Deca%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.1" media="all">
+<link rel="stylesheet" id="elementor-icons-shared-1-css" href="/wp-content/plugins/happy-elementor-addons/assets/fonts/style.min.css?ver=3.9.1.1" media="all">
+<link rel="stylesheet" id="elementor-icons-happy-icons-css" href="/wp-content/plugins/happy-elementor-addons/assets/fonts/style.min.css?ver=3.9.1.1" media="all">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<script src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.17.3" id="font-awesome-4-shim-js"></script>
+<meta name="generator" content="Elementor 3.17.3; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<style id="wpforms-css-vars-root">:root {
+					--wpforms-field-border-radius: 3px;
+--wpforms-field-background-color: #ffffff;
+--wpforms-field-border-color: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-text-color: rgba( 0, 0, 0, 0.7 );
+--wpforms-label-color: rgba( 0, 0, 0, 0.85 );
+--wpforms-label-sublabel-color: rgba( 0, 0, 0, 0.55 );
+--wpforms-label-error-color: #d63637;
+--wpforms-button-border-radius: 3px;
+--wpforms-button-background-color: #066aab;
+--wpforms-button-text-color: #ffffff;
+--wpforms-field-size-input-height: 43px;
+--wpforms-field-size-input-spacing: 15px;
+--wpforms-field-size-font-size: 16px;
+--wpforms-field-size-line-height: 19px;
+--wpforms-field-size-padding-h: 14px;
+--wpforms-field-size-checkbox-size: 16px;
+--wpforms-field-size-sublabel-spacing: 5px;
+--wpforms-field-size-icon-size: 1;
+--wpforms-label-size-font-size: 16px;
+--wpforms-label-size-line-height: 19px;
+--wpforms-label-size-sublabel-font-size: 14px;
+--wpforms-label-size-sublabel-line-height: 17px;
+--wpforms-button-size-font-size: 17px;
+--wpforms-button-size-height: 41px;
+--wpforms-button-size-padding-h: 15px;
+--wpforms-button-size-margin-top: 10px;
+
+				}</style>
+</head>
+<body class="page-template-default page page-id-5200 elementor-default elementor-kit-13 elementor-page elementor-page-5200">
+
+
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<div data-elementor-type="header" data-elementor-id="18" class="elementor elementor-18 elementor-location-header" data-elementor-post-type="elementor_library">
+						<div class="elementor-element elementor-element-5e779d2 animated-slow e-con-full e-flex elementor-invisible e-con e-parent" data-id="5e779d2" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-b802012 e-con-full e-flex e-con e-child" data-id="b802012" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				</div>
+		<div class="elementor-element elementor-element-5986779 e-con-full e-flex e-con e-child" data-id="5986779" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-56b5094 elementor-widget elementor-widget-image" data-id="56b5094" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 08-11-2023 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>													<a>
+							<img width="184" height="33" src="/wp-content/uploads/2023/09/Banshie-Logo.svg" class="attachment-full size-full wp-image-30" alt="Banshie Logo">								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-3c1c53b e-con-full e-flex e-con e-child" data-id="3c1c53b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-4248aa0 elementor-view-default elementor-widget elementor-widget-icon" data-id="4248aa0" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<a class="elementor-icon elementor-animation-grow" href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjE2OTAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="21" viewbox="0 0 24 21" fill="none"><path d="M0 0V3H24V0H0ZM0 8.91V11.91H24V8.91H0ZM0 17.91V20.91H24V17.91H0Z" fill="#1A1A1A"></path></svg>			</a>
+		</div>
+				</div>
+				</div>
+				</div>
+				</div>
+						</div>
+		
+<main id="content" class="site-main post-5200 page type-page status-publish hentry">
+
+			<header class="page-header">
+			<h1 class="entry-title">Tiber | Banshie</h1>		</header>
+	
+	<div class="page-content">
+				<div data-elementor-type="wp-page" data-elementor-id="5200" class="elementor elementor-5200" data-elementor-post-type="page">
+							<div class="elementor-element elementor-element-493d1f2 e-con-full e-flex e-con e-parent" data-id="493d1f2" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-6c5c018 e-con-full e-flex e-con e-child" data-id="6c5c018" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-d8544ab animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="d8544ab" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 08-11-2023 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style>
+<h2 class="elementor-heading-title elementor-size-default">TIBER</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-982c0c7 animated-slow elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial elementor-invisible elementor-widget elementor-widget-text-editor" data-id="982c0c7" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 08-11-2023 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>Strengthening Financial Cybersecurity</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-8370647 elementor-widget elementor-widget-ucaddon_creative_buttons" data-id="8370647" data-element_type="widget" data-widget_type="ucaddon_creative_buttons.default">
+				<div class="elementor-widget-container">
+			<!-- start Creative Button Hovers -->
+		<link id="uc_ac_assets_file_uc_creative_buttons_css_1983-css" href="/wp-content/uploads/ac_assets/uc_creative_buttons/uc_creative_buttons.css" type="text/css" rel="stylesheet">
+
+			<style type="text/css">/* widget: Creative Button Hovers */
+
+#uc_creative_buttons_elementor12069.uc_creative_buttons{
+  text-align: center;
+}
+#uc_creative_buttons_elementor12069.uc_creative_buttons .uc_button,
+#uc_creative_buttons_elementor12069.uc_creative_buttons .uc_button::after {
+	transition: all 0.5s;
+}
+
+#uc_creative_buttons_elementor12069.uc_creative_buttons .uc_button {
+
+
+  display: inline-block;
+  overflow:hidden;
+}</style>
+
+			<div class="uc_creative_buttons" id="uc_creative_buttons_elementor12069">
+  <div class="container">
+    <a href="#" class="uc_button button-padding uc_btn-2"><span>Protect my company </span></a>
+  </div>
+</div>
+			<!-- end Creative Button Hovers -->		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-1a0294b e-con-full e-flex e-con e-parent" data-id="1a0294b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-2372da3 e-con-full e-flex e-con e-child" data-id="2372da3" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-9cea554 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="9cea554" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">What is <span style="color:#ADCA2F;">Tiber DK?</span>
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-47f74bf animated-slow elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-invisible elementor-widget elementor-widget-text-editor" data-id="47f74bf" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							TIBER stands for Threat Intelligence-Based Ethical Red Teaming, and has gained importance as a proactive and collaborative approach to cybersecurity, helping organisations in the financial sector stay ahead of evolving cyber threats and protect critical assets.						</div>
+				</div>
+		<div class="elementor-element elementor-element-6c548f6 e-con-full e-flex e-con e-child" data-id="6c548f6" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-73b8f2b e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="73b8f2b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;}">
+				<div class="elementor-element elementor-element-fe3565f elementor-widget__width-inherit elementor-widget elementor-widget-text-editor" data-id="fe3565f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>The TIBER-DK is the Danish implementation of the TIBER-EU, a European framework developed by the ECB. It offers a controlled, tailored, threat intelligence-led red team test for an organization&#8217;s critical live production systems. <br><br>These tests simulate the tactics, techniques, and procedures of real-world threat actors identified through threat intelligence as genuine threats to organizations.</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-3ed46f6 e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="3ed46f6" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;}">
+				<div class="elementor-element elementor-element-b915bc5 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-image" data-id="b915bc5" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img fetchpriority="high" decoding="async" width="744" height="514" src="/wp-content/uploads/2023/10/tiber-mobile-bg.png" class="attachment-full size-full wp-image-5755" alt="tiber mobile bg">															</div>
+				</div>
+				<div class="elementor-element elementor-element-baeeb63 elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="baeeb63" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="2022" height="1882" src="/wp-content/uploads/2023/10/tiber-dk-banshie.png" class="attachment-full size-full wp-image-5216" alt="tiber dk banshie">															</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-7db070f e-con-full e-flex e-con e-parent" data-id="7db070f" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-170b914 e-flex e-con-boxed e-con e-child" data-id="170b914" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-89ea6dc animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="89ea6dc" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Objectives</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-850d4a3 animated-slow elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-invisible elementor-widget elementor-widget-text-editor" data-id="850d4a3" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>The TIBER framework has clearly defined standards and objectives</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-2b117fa elementor-mobile-position-left elementor-hidden-desktop elementor-hidden-tablet elementor-view-default elementor-position-top elementor-widget elementor-widget-icon-box" data-id="2b117fa" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">		<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<svg xmlns="http://www.w3.org/2000/svg" width="60" height="61" viewbox="0 0 60 61" fill="none"><rect y="0.754272" width="60" height="60" rx="30" fill="#6C7648"></rect><path d="M17.9961 18.7543V29.6907H28.9326L17.9961 18.7543Z" fill="#FBFDFA"></path><path d="M42.0057 31.8178H31.0591V42.7543L42.0057 31.8178Z" fill="#FBFDFA"></path><path d="M28.9326 42.7543V31.8178H17.9961L28.9326 42.7543Z" fill="#FBFDFA"></path><path d="M31.0591 29.6907H41.9956V18.7543L31.0591 29.6907Z" fill="#FBFDFA"></path></svg>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>
+						Enhanced cyber resilience 					</span>
+				</h3>
+									<p class="elementor-icon-box-description">
+						To help organisations strengthen their ability to withstand realistic threats .					</p>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-26c145f elementor-mobile-position-left elementor-hidden-desktop elementor-hidden-tablet elementor-view-default elementor-position-top elementor-widget elementor-widget-icon-box" data-id="26c145f" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<svg xmlns="http://www.w3.org/2000/svg" width="60" height="61" viewbox="0 0 60 61" fill="none"><rect y="0.754272" width="60" height="60" rx="30" fill="#CA732F"></rect><path d="M31.0674 42.7543L31.0674 31.8225L41.9993 31.8225L31.0674 42.7543Z" fill="#FBFDFA"></path><path d="M18 29.6862L18 18.7543L28.9319 18.7543L18 29.6862Z" fill="#FBFDFA"></path><path d="M28.9319 42.7543V31.8225L18 31.8224L28.9319 42.7543Z" fill="#FBFDFA"></path><path d="M41.9993 29.6862V18.7543L31.0674 18.7543L41.9993 29.6862Z" fill="#FBFDFA"></path></svg>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>
+						Targeted defense improvements 					</span>
+				</h3>
+									<p class="elementor-icon-box-description">
+						To provides specific insights into potential real-world attacks and implement  measures to counters these threats effectively.					</p>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-8b40376 elementor-mobile-position-left elementor-hidden-desktop elementor-hidden-tablet elementor-view-default elementor-position-top elementor-widget elementor-widget-icon-box" data-id="8b40376" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<svg xmlns="http://www.w3.org/2000/svg" width="60" height="61" viewbox="0 0 60 61" fill="none"><rect y="0.754272" width="60" height="60" rx="30" fill="#ADCA2F"></rect><path d="M28.9318 18.7544V29.6862H18L28.9318 18.7544Z" fill="#FBFDFA"></path><path d="M41.9993 31.8225V42.7544H31.0674L41.9993 31.8225Z" fill="#FBFDFA"></path><path d="M31.0674 18.7544V29.6862H41.9993L31.0674 18.7544Z" fill="#FBFDFA"></path><path d="M18 31.8225V42.7544H28.9318L18 31.8225Z" fill="#FBFDFA"></path></svg>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>
+						Comprehensive Cyber Defence assessments 					</span>
+				</h3>
+									<p class="elementor-icon-box-description">
+						TIBER allows us to audit systems, networks, technology, processes, and roles, ensuring a thorough examination of an organisation's cybersecurity posture.					</p>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a22edaf elementor-mobile-position-left elementor-hidden-desktop elementor-hidden-tablet elementor-view-default elementor-position-top elementor-widget elementor-widget-icon-box" data-id="a22edaf" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<svg xmlns="http://www.w3.org/2000/svg" width="60" height="61" viewbox="0 0 60 61" fill="none"><rect y="0.754395" width="60" height="60" rx="30" fill="#E7BD41"></rect><path d="M31.0615 42.7544V31.8225H41.9934L31.0615 42.7544Z" fill="#FBFDFA"></path><path d="M28.9357 18.7544V29.6862H18.0039L28.9357 18.7544Z" fill="#FBFDFA"></path><path d="M28.9357 42.7544V31.8225H18.0039L28.9357 42.7544Z" fill="#FBFDFA"></path><path d="M31.0615 18.7544V29.6862H41.9934L31.0615 18.7544Z" fill="#FBFDFA"></path></svg>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>
+						Shared learning for collective defense					</span>
+				</h3>
+									<p class="elementor-icon-box-description">
+						TIBER promotes a collaborative approach to cybersecurity. By sharing knowledge and experiences among participating organisations, it strengthens the overall cybersecurity posture of the financial sector, reducing the risk of systemic cyber incidents.					</p>
+							</div>
+		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-68e35c2 e-con-full elementor-hidden-mobile e-flex e-con e-child" data-id="68e35c2" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-0b3b281 e-con-full e-flex e-con e-child" data-id="0b3b281" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-7e3b203 e-flex e-con-boxed e-con e-child" data-id="7e3b203" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-f1f71eb elementor-widget elementor-widget-heading" data-id="f1f71eb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Enhanced cyber resilience </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1c0f04d elementor-widget elementor-widget-text-editor" data-id="1c0f04d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							To help organisations strengthen their ability to withstand realistic threats.						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-8e831bd e-flex e-con-boxed e-con e-child" data-id="8e831bd" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-3400837 elementor-widget elementor-widget-heading" data-id="3400837" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Targeted defense improvements </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a7b5130 elementor-widget elementor-widget-text-editor" data-id="a7b5130" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							To provides specific insights into potential real-world attacks and implement measures to counters these threats effectively.						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-d7cdab7 e-con-full e-flex e-con e-child" data-id="d7cdab7" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-e45447a e-transform elementor-widget elementor-widget-image" data-id="e45447a" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.02,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="432" height="431" src="/wp-content/uploads/2023/10/banshie-tiber-objectives.svg" class="attachment-full size-full wp-image-5232" alt="banshie tiber objectives">															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-b936c51 e-con-full e-flex e-con e-child" data-id="b936c51" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-5f082e0 e-flex e-con-boxed e-con e-child" data-id="5f082e0" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d139255 elementor-widget elementor-widget-heading" data-id="d139255" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Comprehensive Cyber Defence assessments </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c5d8bd9 elementor-widget elementor-widget-text-editor" data-id="c5d8bd9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							TIBER allows us to audit systems, networks, technology, processes, and roles, ensuring a thorough examination of an organisation&#8217;s cybersecurity posture.						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-a05da3b e-flex e-con-boxed e-con e-child" data-id="a05da3b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-72eb9f1 elementor-widget elementor-widget-heading" data-id="72eb9f1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Shared learning for collective defense</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-387e72f elementor-widget elementor-widget-text-editor" data-id="387e72f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							TIBER promotes a collaborative approach to cybersecurity. By sharing knowledge and experiences among participating organisations, it strengthens the overall cybersecurity posture of the financial sector, reducing the risk of systemic cyber incidents.						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-fbd38ae e-con-full e-flex e-con e-parent" data-id="fbd38ae" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-77234be e-flex e-con-boxed e-con e-child" data-id="77234be" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-4302379 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="4302379" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">The 3 Phases of <span style="color:#ADCA2F;">TIBER</span>  Testing</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-bbe9cd1 animated-slow elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-text-editor" data-id="bbe9cd1" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>TIBER testing</p>						</div>
+				</div>
+		<div class="elementor-element elementor-element-313eb67 e-flex e-con-boxed e-con e-child" data-id="313eb67" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-a5118a7 e-transform e-flex e-con-boxed e-con e-child" data-id="a5118a7" data-element_type="container" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.02,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.01,&quot;sizes&quot;:[]},&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-439103a elementor-widget elementor-widget-heading" data-id="439103a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">01</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c9d8a85 elementor-widget elementor-widget-heading" data-id="c9d8a85" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Initiation Phase</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-318ce57 elementor-widget elementor-widget-text-editor" data-id="318ce57" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<ul>
+<li>Engagement &amp; Scoping</li>
+<li>TI /RT Service Procurement</li>
+</ul>						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-7e61d75 e-transform e-flex e-con-boxed e-con e-child" data-id="7e61d75" data-element_type="container" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.02,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.01,&quot;sizes&quot;:[]},&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-c40fdf3 elementor-widget elementor-widget-heading" data-id="c40fdf3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">02</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d36a7ed elementor-widget elementor-widget-heading" data-id="d36a7ed" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Testing Phase</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6da3d4f elementor-widget elementor-widget-text-editor" data-id="6da3d4f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<ul>
+<li>Threat Intelligence</li>
+<li>Red Teaming</li>
+</ul>						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-dca7e8f e-transform e-flex e-con-boxed e-con e-child" data-id="dca7e8f" data-element_type="container" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.02,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.01,&quot;sizes&quot;:[]},&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-088a3c3 elementor-widget elementor-widget-heading" data-id="088a3c3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">03</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8f18beb elementor-widget elementor-widget-heading" data-id="8f18beb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Closure Phase</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-59b55db elementor-widget elementor-widget-text-editor" data-id="59b55db" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<ul>
+<li>Remediation Planning</li>
+<li>Result Sharing</li>
+</ul>						</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-0b7b3f8 animated-slow elementor-widget__width-inherit elementor-invisible elementor-widget elementor-widget-text-editor" data-id="0b7b3f8" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							The TIBER process, while appearing linear, has intricate non-linear interactions within each phase. The framework combines the TI and RT interactions as a collaborative testing phase running concurrently. The process is expected to span 23 to 27 weeks excluding TI/RT service provider procurement.						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-a1a7ded e-con-full e-flex e-con e-parent" data-id="a1a7ded" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-2f6044f e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="2f6044f" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;}">
+				<div class="elementor-element elementor-element-87a1c14 elementor-widget elementor-widget-image" data-id="87a1c14" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="2115" height="1498" src="/wp-content/uploads/2023/10/banshie-global-cyber-security.png" class="attachment-full size-full wp-image-5274" alt="banshie global cyber security">															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-0d848bd e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="0d848bd" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;}">
+				<div class="elementor-element elementor-element-ff939c2 elementor-widget__width-inherit elementor-widget elementor-widget-text-editor" data-id="ff939c2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							We test your security posture and operating model, providing insight and clarity around your ability to reliably prevent attacks and also detect and implement a response. 
+
+By working with us, your TIBER test will provide you with this insight and unparalleled levels of value to all of the stakeholders involved – answering the question ‘how vulnerable are we?’.						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-f06b458 e-flex e-con-boxed e-con e-parent" data-id="f06b458" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-b87cf3c e-con-full e-flex e-con e-child" data-id="b87cf3c" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-d0e0b09 e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="d0e0b09" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+				<div class="elementor-element elementor-element-6ba0f4f elementor-view-default elementor-widget elementor-widget-icon" data-id="6ba0f4f" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg xmlns="http://www.w3.org/2000/svg" width="42" height="43" viewbox="0 0 42 43" fill="none"><path d="M41.3438 34.0852H35.053L32.6203 31.6525C32.4972 31.5294 32.3303 31.4602 32.1563 31.4602H23.2969C21.6685 31.4602 20.3438 32.7849 20.3438 34.4133C20.3438 35.0196 20.5278 35.5842 20.8424 36.054H18.5193L10.5318 32.3677C10.1768 32.2029 9.78167 32.1165 9.38916 32.1165H9.28922C7.78575 32.1165 6.56263 33.3399 6.56263 34.8434C6.56263 35.8271 7.09518 36.7371 7.9527 37.2191L17.3972 42.5319C17.4952 42.5876 17.6061 42.6165 17.7189 42.6165H41.3439C41.7063 42.6165 42.0001 42.3229 42.0001 41.9602V34.7415C42.0001 34.3787 41.7061 34.0852 41.3438 34.0852ZM40.6875 41.304H17.8905L8.59596 36.0751C8.15122 35.8251 7.875 35.3535 7.875 34.8433C7.875 34.0634 8.50946 33.4289 9.28909 33.4289H9.38903C9.5928 33.4289 9.79762 33.4738 9.9815 33.559L18.1 37.3061C18.1862 37.3458 18.2801 37.3664 18.3749 37.3664H29.5312V36.0539H23.2968C22.3922 36.0539 21.6562 35.3182 21.6562 34.4133C21.6562 33.5084 22.3922 32.7726 23.2968 32.7726H31.8844L34.3172 35.2054C34.4402 35.3284 34.6071 35.3976 34.7811 35.3976H40.6874L40.6875 41.304Z" fill="#1A1A1A"></path><path d="M9.37978 11.5804C9.50283 11.7035 9.66978 11.7727 9.84375 11.7727H18.7031C20.3315 11.7727 21.6562 10.448 21.6562 8.81958C21.6562 8.21334 21.4723 7.6487 21.1576 7.17896H23.4808L31.4682 10.8652C31.8233 11.03 32.2184 11.1165 32.6109 11.1165H32.7108C34.2143 11.1165 35.4374 9.89301 35.4374 8.38954C35.4374 7.40582 34.9049 6.4958 34.0474 6.01385L24.6029 0.701046C24.5049 0.645264 24.394 0.616455 24.2812 0.616455H0.65625C0.293869 0.616455 0 0.909996 0 1.27271V8.49146C0 8.85416 0.293869 9.14771 0.65625 9.14771H6.947L9.37978 11.5804ZM1.3125 1.92896H24.1095L33.404 7.15782C33.8488 7.40779 34.125 7.87944 34.125 8.38961C34.125 9.16956 33.4905 9.80402 32.7109 9.80402H32.611C32.4072 9.80402 32.2024 9.75913 32.0185 9.67395L23.9 5.92676C23.8138 5.88706 23.7199 5.86652 23.6251 5.86652H12.4688V7.17902H18.7032C19.6078 7.17902 20.3438 7.91474 20.3438 8.81965C20.3438 9.72455 19.6078 10.4603 18.7032 10.4603H10.1156L7.68285 8.02755C7.5598 7.90451 7.39285 7.83527 7.21888 7.83527H1.3125V1.92896Z" fill="#1A1A1A"></path><path d="M21 12.5065C20.2745 12.5065 19.6315 12.8847 19.2789 13.5191L11.666 27.2228C11.3235 27.8387 11.3325 28.5699 11.69 29.1774C12.0476 29.785 12.6818 30.1477 13.3867 30.1477H28.6131C29.318 30.1477 29.9522 29.785 30.3098 29.1774C30.6673 28.5699 30.6763 27.8387 30.3338 27.2228L22.7209 13.5185C22.3684 12.8847 21.7255 12.5065 21 12.5065ZM29.1788 28.5116C29.1214 28.609 28.9519 28.8353 28.6132 28.8353H13.3868C13.0482 28.8353 12.8786 28.6091 12.8213 28.5116C12.7643 28.4142 12.6489 28.1559 12.8133 27.8598L20.4262 14.1567C20.5954 13.8517 20.8841 13.819 21.0001 13.819C21.116 13.819 21.4048 13.8517 21.574 14.1561L29.1868 27.8598C29.3512 28.1559 29.2358 28.4142 29.1788 28.5116Z" fill="#1A1A1A"></path><path d="M21 24.2415C19.9144 24.2415 19.0312 25.1246 19.0312 26.2102C19.0312 27.2958 19.9144 28.179 21 28.179C22.0856 28.179 22.9688 27.2958 22.9688 26.2102C22.9688 25.1246 22.0856 24.2415 21 24.2415ZM21 26.8665C20.6382 26.8665 20.3438 26.5723 20.3438 26.2102C20.3438 25.8481 20.6382 25.554 21 25.554C21.3618 25.554 21.6562 25.8481 21.6562 26.2102C21.6562 26.5723 21.3618 26.8665 21 26.8665Z" fill="#1A1A1A"></path><path d="M19.0312 18.9915V21.6165C19.0312 22.7021 19.9144 23.5852 21 23.5852C22.0856 23.5852 22.9688 22.7021 22.9688 21.6165V18.9915C22.9688 17.9058 22.0856 17.0227 21 17.0227C19.9144 17.0227 19.0312 17.9058 19.0312 18.9915ZM21.6562 18.9915V21.6165C21.6562 21.9786 21.3618 22.2727 21 22.2727C20.6382 22.2727 20.3438 21.9786 20.3438 21.6165V18.9915C20.3438 18.6293 20.6382 18.3352 21 18.3352C21.3618 18.3352 21.6562 18.6293 21.6562 18.9915Z" fill="#1A1A1A"></path><path d="M36.194 17.456L37.4597 17.1099C37.345 16.6895 37.2127 16.271 37.0672 15.8647L35.8316 16.3082C35.9659 16.6824 36.088 17.0689 36.194 17.456Z" fill="#1A1A1A"></path><path d="M34.5775 31.9447C34.8396 31.6006 35.0921 31.2417 35.328 30.8783L34.227 30.1644C34.0091 30.5002 33.7758 30.8309 33.5336 31.1487L34.5775 31.9447Z" fill="#1A1A1A"></path><path d="M35.3817 15.1918L36.5795 14.6547C36.4036 14.2625 36.2091 13.869 36.0012 13.4858L34.8476 14.1126C35.0396 14.4663 35.2192 14.8291 35.3817 15.1918Z" fill="#1A1A1A"></path><path d="M35.3347 12.3648C35.101 12.0034 34.8489 11.6445 34.5848 11.2971L33.5402 12.0918C33.7837 12.4122 34.0167 12.7442 34.2324 13.0775L35.3347 12.3648Z" fill="#1A1A1A"></path><path d="M36.75 21.6165C36.75 21.8202 36.7459 22.0234 36.7381 22.2259L38.05 22.2759C38.0583 22.0567 38.0624 21.837 38.0624 21.6165C38.0624 21.4005 38.0586 21.1852 38.0506 20.9718L36.7387 21.0204C36.7461 21.2185 36.75 21.4172 36.75 21.6165Z" fill="#1A1A1A"></path><path d="M37.951 23.5762L36.6468 23.4275C36.6017 23.8236 36.5401 24.2235 36.4642 24.6163L37.753 24.865C37.8354 24.4394 37.902 24.0063 37.951 23.5762Z" fill="#1A1A1A"></path><path d="M36.6484 19.8194L37.9526 19.6707C37.9036 19.2407 37.8372 18.8069 37.7552 18.3807L36.4664 18.6281C36.542 19.0216 36.6033 19.4227 36.6484 19.8194Z" fill="#1A1A1A"></path><path d="M36.5747 28.5891L35.3776 28.0508C35.2129 28.4174 35.0328 28.7801 34.8425 29.1294L35.9954 29.7574C36.2014 29.3787 36.3962 28.9858 36.5747 28.5891Z" fill="#1A1A1A"></path><path d="M37.4566 26.1352L36.1909 25.7878C36.0852 26.173 35.963 26.5588 35.8282 26.935L37.0631 27.3785C37.2095 26.9715 37.3419 26.553 37.4566 26.1352Z" fill="#1A1A1A"></path><path d="M6.66533 30.8681C6.89896 31.2295 7.15109 31.5884 7.41517 31.9358L8.45978 31.1411C8.21625 30.8207 7.98328 30.4888 7.76764 30.1554L6.66533 30.8681Z" fill="#1A1A1A"></path><path d="M7.42252 11.2882C7.16041 11.6323 6.90788 11.9912 6.67203 12.3546L7.77302 13.0685C7.99089 12.7327 8.22419 12.402 8.46641 12.0842L7.42252 11.2882Z" fill="#1A1A1A"></path><path d="M5.25 21.6165C5.25 21.4127 5.25413 21.2095 5.26188 21.007L3.95003 20.957C3.9417 21.1762 3.93757 21.396 3.93757 21.6165C3.93757 21.8324 3.94144 22.0477 3.94944 22.2612L5.26129 22.2125C5.25394 22.0144 5.25 21.8158 5.25 21.6165Z" fill="#1A1A1A"></path><path d="M5.80598 25.777L4.54027 26.123C4.65498 26.5434 4.78734 26.9619 4.93277 27.3682L6.16836 26.9247C6.03409 26.5505 5.91203 26.164 5.80598 25.777Z" fill="#1A1A1A"></path><path d="M6.61828 28.0411L5.42049 28.5782C5.59643 28.9705 5.79095 29.3639 5.99885 29.7471L7.1524 29.1203C6.96045 28.7666 6.78077 28.4039 6.61828 28.0411Z" fill="#1A1A1A"></path><path d="M5.35159 23.4135L4.04742 23.5622C4.09644 23.9922 4.16279 24.4261 4.24482 24.8522L5.53363 24.6048C5.45803 24.2113 5.39674 23.8102 5.35159 23.4135Z" fill="#1A1A1A"></path><path d="M6.1719 16.2979L4.93697 15.8544C4.79056 16.2613 4.65819 16.6798 4.54348 17.0976L5.80919 17.445C5.91491 17.0598 6.03704 16.674 6.1719 16.2979Z" fill="#1A1A1A"></path><path d="M4.049 19.6567L5.35316 19.8054C5.39831 19.4094 5.45987 19.0094 5.5358 18.6166L4.24699 18.368C4.16463 18.7935 4.09802 19.2267 4.049 19.6567Z" fill="#1A1A1A"></path><path d="M7.15752 14.1036L6.00462 13.4755C5.79856 13.8543 5.60378 14.2472 5.42528 14.6439L6.62242 15.1822C6.78713 14.8156 6.96721 14.4529 7.15752 14.1036Z" fill="#1A1A1A"></path></svg>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-570b4fd e-transform elementor-widget elementor-widget-heading" data-id="570b4fd" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.02,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="#">Minimize risk</a></h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3051221 elementor-widget__width-inherit elementor-widget elementor-widget-text-editor" data-id="3051221" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							An independent service to monitor any data that can be used to target your organization. Minimize the risk by letting us keep track.						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-c67bb34 e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="c67bb34" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+				<div class="elementor-element elementor-element-3dfa699 elementor-view-default elementor-widget elementor-widget-icon" data-id="3dfa699" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg xmlns="http://www.w3.org/2000/svg" width="45" height="43" viewbox="0 0 45 43" fill="none"><path d="M20.5454 30.5709C20.576 30.6566 20.5892 30.7476 20.5844 30.8384C20.5795 30.9293 20.5567 31.0183 20.5172 31.1003C20.4777 31.1822 20.4223 31.2555 20.3543 31.3159C20.2862 31.3763 20.2068 31.4226 20.1208 31.4521C20.0347 31.4816 19.9436 31.4938 19.8528 31.4878C19.762 31.4818 19.6733 31.4579 19.5918 31.4174C19.5104 31.3769 19.4377 31.3206 19.3782 31.2518C19.3186 31.1831 19.2733 31.1031 19.2448 31.0167C19.0807 30.5373 18.7823 30.1151 18.3851 29.8004C17.9879 29.4857 17.5088 29.2917 17.0045 29.2415C16.5003 29.1913 15.9922 29.287 15.5408 29.5172C15.0894 29.7473 14.7136 30.1023 14.4581 30.5399C14.3643 30.6935 14.214 30.8042 14.0394 30.8482C13.8649 30.8923 13.6801 30.8661 13.5247 30.7753C13.3692 30.6845 13.2556 30.5365 13.2082 30.3628C13.1607 30.1892 13.1833 30.0039 13.2709 29.8467C13.5668 29.3425 13.9687 28.9087 14.4489 28.5752C14.9291 28.2418 15.4761 28.0168 16.0519 27.9158C15.8418 27.4448 15.7384 26.9332 15.7489 26.4176C15.7594 25.902 15.8836 25.3951 16.1127 24.9331C16.3418 24.471 16.6701 24.0652 17.0741 23.7447C17.4782 23.4243 17.948 23.1969 18.4501 23.079C18.538 23.0584 18.6291 23.0553 18.7182 23.0698C18.8073 23.0844 18.8926 23.1164 18.9694 23.164C19.0461 23.2116 19.1128 23.2738 19.1655 23.3471C19.2182 23.4204 19.2559 23.5034 19.2765 23.5913C19.2972 23.6792 19.3003 23.7703 19.2857 23.8594C19.2711 23.9485 19.2391 24.0339 19.1916 24.1106C19.144 24.1874 19.0818 24.254 19.0084 24.3067C18.9351 24.3594 18.8521 24.3971 18.7642 24.4178C18.3966 24.5039 18.0585 24.6864 17.7848 24.9466C17.5111 25.2067 17.3116 25.5351 17.2069 25.8979C17.1023 26.2607 17.0961 26.6449 17.1892 27.0109C17.2822 27.3768 17.4711 27.7114 17.7363 27.9802C18.3823 28.146 18.9771 28.4695 19.4673 28.9216C19.9576 29.3738 20.328 29.9405 20.5454 30.5709ZM16.2665 17.8198C16.9655 17.819 17.6552 17.6584 18.2827 17.3503C18.9102 17.0423 19.4591 16.5949 19.8873 16.0423C20.3155 15.4897 20.6117 14.8466 20.7534 14.162C20.8951 13.4774 20.8784 12.7695 20.7047 12.0924C20.659 11.9159 20.545 11.7647 20.3879 11.6722C20.2307 11.5797 20.0433 11.5535 19.8668 11.5992C19.6902 11.6449 19.5391 11.7588 19.4466 11.916C19.3541 12.0731 19.3278 12.2606 19.3735 12.4371C19.5444 13.098 19.4993 13.7963 19.2449 14.4298C18.9906 15.0633 18.5402 15.5989 17.9598 15.9582C17.3793 16.3175 16.6992 16.4817 16.0187 16.4269C15.3382 16.372 14.6932 16.101 14.1777 15.6534C14.467 15.1086 14.5515 14.4782 14.4161 13.8764C14.3963 13.7884 14.3594 13.705 14.3074 13.6312C14.2554 13.5574 14.1894 13.4945 14.1131 13.4462C14.0368 13.3979 13.9518 13.3651 13.8628 13.3497C13.7739 13.3343 13.6827 13.3365 13.5947 13.3563C13.5066 13.3761 13.4232 13.413 13.3494 13.465C13.2756 13.517 13.2127 13.583 13.1644 13.6593C13.1161 13.7356 13.0833 13.8206 13.0679 13.9096C13.0525 13.9985 13.0547 14.0897 13.0745 14.1778C13.1174 14.3683 13.1135 14.5665 13.063 14.7552C13.0126 14.9439 12.917 15.1175 12.7847 15.2612C12.6523 15.4048 12.4871 15.5142 12.3031 15.58C12.1192 15.6457 11.922 15.6658 11.7286 15.6386C11.5489 15.6151 11.3672 15.6636 11.223 15.7734C11.0788 15.8832 10.9838 16.0455 10.9587 16.2249C10.9336 16.4044 10.9803 16.5866 11.0888 16.7317C11.1972 16.8769 11.3586 16.9734 11.5379 17.0002C12.1259 17.0823 12.7242 16.9594 13.2323 16.6522C14.0648 17.4028 15.1456 17.8187 16.2665 17.8198ZM7.87535 20.9755C7.69658 20.9884 7.52989 21.0705 7.41082 21.2045C7.29175 21.3385 7.22971 21.5137 7.23791 21.6927C7.24612 21.8718 7.32393 22.0405 7.45475 22.163C7.58558 22.2856 7.75908 22.3521 7.93829 22.3486C8.25918 22.3339 8.57819 22.4051 8.86242 22.5548C9.14665 22.7045 9.38583 22.9272 9.55531 23.2001C9.72478 23.473 9.81843 23.7862 9.82658 24.1073C9.83474 24.4284 9.75712 24.7459 9.60173 25.0271C9.51572 25.1865 9.4961 25.3734 9.54712 25.5472C9.59814 25.721 9.71569 25.8676 9.87422 25.9552C10.0327 26.0429 10.2194 26.0644 10.3937 26.0151C10.568 25.9659 10.7159 25.8498 10.8051 25.6922C11.0788 25.1971 11.2155 24.6379 11.2011 24.0723C11.1868 23.5068 11.0218 22.9553 10.7233 22.4747C10.4248 21.9942 10.0035 21.6019 9.50294 21.3384C9.00233 21.0748 8.44049 20.9496 7.87535 20.9755ZM44.3414 21.4952C44.4157 23.3097 43.9812 25.1088 43.087 26.6893C42.1928 28.2699 40.8745 29.569 39.281 30.4398C39.6523 31.6095 39.7206 32.8543 39.4794 34.0575C39.2381 35.2607 38.6952 36.383 37.9017 37.3191C37.3175 38.0109 36.5905 38.568 35.7707 38.9523C34.9508 39.3365 34.0575 39.5388 33.1521 39.5451C32.7286 39.5445 32.3062 39.4996 31.892 39.4111C31.5221 40.1626 30.9933 40.8247 30.3422 41.3515C29.6912 41.8784 28.9333 42.2574 28.1213 42.4625C27.0033 42.726 25.8311 42.6366 24.766 42.2065C23.7009 41.7765 22.7952 41.0269 22.1736 40.061C21.6678 40.8377 20.9779 41.4774 20.1653 41.9232C19.3526 42.369 18.4424 42.6072 17.5156 42.6165C17.0818 42.616 16.6497 42.5639 16.2283 42.461C15.4162 42.256 14.6584 41.8769 14.0074 41.3501C13.3563 40.8232 12.8275 40.1612 12.4576 39.4097C12.0433 39.4982 11.621 39.5431 11.1975 39.5437C10.2921 39.5373 9.39876 39.3351 8.57891 38.9508C7.75906 38.5666 7.03208 38.0094 6.44791 37.3177C5.65434 36.3816 5.11149 35.2593 4.87024 34.0561C4.62899 32.8528 4.69725 31.608 5.06862 30.4384C3.4753 29.5676 2.15714 28.2688 1.26295 26.6885C0.368758 25.1082 -0.0658416 23.3094 0.00821517 21.4952C-0.0663407 19.681 0.367772 17.882 1.26154 16.3015C2.15531 14.721 3.47314 13.4217 5.06624 12.5506C4.69495 11.381 4.62674 10.1363 4.86798 8.93312C5.10923 7.72997 5.65204 6.60779 6.44553 5.67176C7.17756 4.79781 8.13625 4.14247 9.21635 3.7777C10.2964 3.41293 11.4562 3.35284 12.5682 3.60402C12.948 2.9033 13.4693 2.28912 14.0989 1.80039C14.7286 1.31166 15.4529 0.959042 16.2259 0.76487C17.3438 0.501196 18.5159 0.590391 19.581 1.02018C20.6461 1.44998 21.5518 2.19925 22.1736 3.16492C22.7954 2.19925 23.7011 1.44998 24.7662 1.02018C25.8313 0.590391 27.0034 0.501196 28.1213 0.76487C28.8943 0.958988 29.6187 1.31159 30.2483 1.80032C30.878 2.28906 31.3992 2.90326 31.779 3.60402C32.891 3.35278 34.0508 3.41285 35.1309 3.77762C36.211 4.1424 37.1697 4.79777 37.9017 5.67176C38.6952 6.60779 39.238 7.72997 39.4792 8.93312C39.7205 10.1363 39.6523 11.381 39.281 12.5506C40.8741 13.4217 42.1919 14.721 43.0857 16.3015C43.9794 17.882 44.4135 19.681 44.339 21.4952H44.3414ZM21.4861 38.4428V4.78307C21.1249 3.81608 20.4267 3.01205 19.5198 2.51888C18.613 2.0257 17.5586 1.87655 16.5506 2.09887C15.4386 2.38003 14.482 3.08774 13.8879 4.06887C14.9919 4.62906 15.9252 5.4757 16.5899 6.52019C17.2546 7.56468 17.6263 8.76863 17.6662 10.0061C17.6727 10.0975 17.6609 10.1893 17.6314 10.2761C17.6019 10.3629 17.5553 10.4429 17.4944 10.5115C17.4335 10.58 17.3595 10.6356 17.2768 10.6752C17.194 10.7147 17.1042 10.7372 17.0127 10.7415C16.9211 10.7458 16.8296 10.7318 16.7435 10.7002C16.6575 10.6686 16.5786 10.6201 16.5115 10.5575C16.4445 10.495 16.3906 10.4197 16.3531 10.336C16.3156 10.2524 16.2952 10.1621 16.2932 10.0704C16.2661 9.01341 15.9344 7.98671 15.3379 7.1137C14.7414 6.24069 13.9054 5.55854 12.9305 5.14922C11.9887 4.78583 10.9565 4.72734 9.97958 4.982C9.0027 5.23665 8.13043 5.79161 7.48583 6.56856C6.78713 7.39641 6.33091 8.40132 6.1676 9.47224C6.00428 10.5432 6.14024 11.6384 6.56043 12.6369C6.63036 12.8042 6.63132 12.9924 6.56309 13.1605C6.49486 13.3286 6.36298 13.4629 6.19618 13.5341C3.20875 14.8123 1.27451 18.0019 1.38321 21.4737C1.38321 21.488 1.38321 21.5023 1.38321 21.5166C1.27451 24.9885 3.20875 28.1785 6.19618 29.4543C6.36298 29.5256 6.49486 29.6599 6.56309 29.828C6.63132 29.996 6.63036 30.1843 6.56043 30.3516C6.14024 31.3501 6.00428 32.4453 6.1676 33.5162C6.33091 34.5871 6.78713 35.5921 7.48583 36.4199C8.1305 37.1968 9.00274 37.7517 9.97958 38.0064C10.9564 38.2611 11.9886 38.2028 12.9305 37.8397C13.9054 37.4303 14.7414 36.748 15.3379 35.8749C15.9344 35.0019 16.2661 33.9751 16.2932 32.9181C16.2953 32.8264 16.3158 32.7362 16.3534 32.6526C16.3909 32.569 16.4448 32.4938 16.5119 32.4313C16.5789 32.3689 16.6578 32.3204 16.7438 32.2889C16.8299 32.2574 16.9214 32.2433 17.0129 32.2477C17.1044 32.252 17.1942 32.2746 17.2769 32.3141C17.3595 32.3536 17.4335 32.4092 17.4944 32.4777C17.5552 32.5462 17.6018 32.6262 17.6313 32.713C17.6608 32.7997 17.6727 32.8915 17.6662 32.9829C17.6262 34.2406 17.2427 35.4634 16.5575 36.5189C15.8722 37.5743 14.9113 38.4222 13.7787 38.9706C14.0676 39.5012 14.4629 39.9664 14.9398 40.3371C15.4168 40.7078 15.9652 40.9761 16.5506 41.1251C17.5584 41.3477 18.6126 41.1988 19.5195 40.706C20.4263 40.2132 21.1246 39.4095 21.4861 38.4428ZM42.964 21.5176C42.964 21.5033 42.964 21.489 42.964 21.4747C43.0727 18.0029 41.1385 14.8133 38.151 13.537C37.9842 13.4657 37.8523 13.3314 37.7841 13.1634C37.7159 12.9953 37.7169 12.8071 37.7868 12.6397C38.207 11.6412 38.3429 10.546 38.1796 9.4751C38.0163 8.40418 37.5601 7.39927 36.8614 6.57142C36.2168 5.79447 35.3445 5.23952 34.3676 4.98486C33.3907 4.7302 32.3586 4.78869 31.4167 5.15208C30.4418 5.5614 29.6058 6.24355 29.0093 7.11656C28.4128 7.98957 28.0811 9.01627 28.0541 10.0733C28.052 10.1649 28.0316 10.2552 27.9941 10.3389C27.9566 10.4226 27.9027 10.4979 27.8357 10.5604C27.7686 10.6229 27.6897 10.6714 27.6037 10.703C27.5176 10.7346 27.4261 10.7487 27.3345 10.7444C27.243 10.7401 27.1532 10.7175 27.0704 10.678C26.9877 10.6385 26.9137 10.5829 26.8528 10.5143C26.7919 10.4458 26.7454 10.3658 26.7158 10.279C26.6863 10.1922 26.6745 10.1004 26.681 10.0089C26.7209 8.77149 27.0926 7.56754 27.7573 6.52305C28.422 5.47856 29.3553 4.63192 30.4593 4.07173C29.8652 3.09061 28.9086 2.38289 27.7966 2.10173C26.7889 1.87914 25.7348 2.02784 24.828 2.52047C23.9212 3.0131 23.2228 3.81655 22.8611 4.78307V8.53046H25.3703C25.5495 8.53517 25.7197 8.60965 25.8447 8.73802C25.9698 8.8664 26.0397 9.03852 26.0397 9.21772C26.0397 9.39692 25.9698 9.56904 25.8447 9.69741C25.7197 9.82578 25.5495 9.90026 25.3703 9.90498H22.8611V12.3036H27.7518L29.5454 10.51C29.2869 10.0178 29.2135 9.44933 29.3384 8.90766C29.4633 8.36599 29.7784 7.88706 30.2263 7.55782C30.6742 7.22859 31.2253 7.07086 31.7795 7.11327C32.3338 7.15569 32.8545 7.39543 33.2471 7.78899C33.6397 8.18255 33.8782 8.70382 33.9192 9.2582C33.9603 9.81257 33.8012 10.3633 33.4709 10.8104C33.1405 11.2575 32.6608 11.5713 32.1189 11.6949C31.5769 11.8185 31.0085 11.7437 30.517 11.484L28.5208 13.4793C28.3919 13.6081 28.2172 13.6805 28.035 13.6805H22.8611V14.8958H26.157C26.2488 14.8934 26.3401 14.9093 26.4256 14.9428C26.5111 14.9763 26.589 15.0265 26.6548 15.0905C26.7206 15.1546 26.7728 15.2312 26.8085 15.3158C26.8442 15.4004 26.8626 15.4912 26.8626 15.583C26.8626 15.6748 26.8442 15.7657 26.8085 15.8503C26.7728 15.9349 26.7206 16.0115 26.6548 16.0755C26.589 16.1396 26.5111 16.1898 26.4256 16.2233C26.3401 16.2567 26.2488 16.2727 26.157 16.2703H22.8611V17.4756H29.4019C29.4921 17.4756 29.5815 17.4934 29.6649 17.528C29.7482 17.5626 29.824 17.6133 29.8877 17.6772L31.883 19.6725C32.3748 19.4133 32.9432 19.3391 33.4851 19.4632C34.027 19.5874 34.5064 19.9018 34.8363 20.3493C35.1661 20.7968 35.3246 21.3478 35.2829 21.9021C35.2412 22.4565 35.0021 22.9775 34.609 23.3706C34.2159 23.7638 33.6948 24.0029 33.1405 24.0446C32.5861 24.0863 32.0351 23.9278 31.5876 23.5979C31.1401 23.2681 30.8258 22.7887 30.7016 22.2468C30.5774 21.7049 30.6516 21.1365 30.9108 20.6446L29.1172 18.8506H22.8611V20.3009H26.2261C26.4085 20.3009 26.5833 20.3733 26.7123 20.5023C26.8412 20.6312 26.9136 20.806 26.9136 20.9884C26.9136 21.1707 26.8412 21.3456 26.7123 21.4745C26.5833 21.6035 26.4085 21.6759 26.2261 21.6759H22.8611V23.1863H23.91C24.0018 23.1839 24.0931 23.1999 24.1786 23.2333C24.2641 23.2668 24.342 23.317 24.4078 23.3811C24.4736 23.4451 24.5258 23.5217 24.5615 23.6063C24.5972 23.6909 24.6156 23.7817 24.6156 23.8735C24.6156 23.9654 24.5972 24.0562 24.5615 24.1408C24.5258 24.2254 24.4736 24.302 24.4078 24.366C24.342 24.4301 24.2641 24.4803 24.1786 24.5138C24.0931 24.5472 24.0018 24.5632 23.91 24.5608H22.8611V26.1852H26.0669C26.2492 26.1852 26.4241 26.2576 26.553 26.3865C26.682 26.5154 26.7544 26.6903 26.7544 26.8726C26.7544 27.055 26.682 27.2299 26.553 27.3588C26.4241 27.4877 26.2492 27.5601 26.0669 27.5601H22.8611V29.923H26.515L28.3091 28.1294C28.0499 27.6376 27.9757 27.0691 28.0999 26.5272C28.224 25.9854 28.5384 25.506 28.9859 25.1761C29.4334 24.8462 29.9844 24.6878 30.5387 24.7295C31.0931 24.7712 31.6142 25.0103 32.0073 25.4034C32.4004 25.7965 32.6395 26.3175 32.6812 26.8719C32.7229 27.4263 32.5644 27.9772 32.2346 28.4247C31.9047 28.8722 31.4253 29.1866 30.8834 29.3108C30.3415 29.435 29.7731 29.3607 29.2813 29.1015L27.286 31.0968C27.1569 31.2256 26.982 31.298 26.7997 31.298H22.8611V33.2403H24.7815C24.9639 33.2403 25.1387 33.3128 25.2677 33.4417C25.3966 33.5706 25.469 33.7455 25.469 33.9278C25.469 34.1102 25.3966 34.2851 25.2677 34.414C25.1387 34.5429 24.9639 34.6153 24.7815 34.6153H22.8611V38.4428C23.2222 39.4099 23.9204 40.2141 24.8272 40.7073C25.7341 41.2005 26.7886 41.3496 27.7966 41.127C28.382 40.978 28.9304 40.7097 29.4074 40.339C29.8843 39.9683 30.2796 39.5031 30.5685 38.9725C29.4359 38.4241 28.475 37.5762 27.7897 36.5208C27.1045 35.4654 26.7211 34.2425 26.681 32.9848C26.6745 32.8934 26.6864 32.8016 26.7159 32.7149C26.7454 32.6281 26.792 32.5481 26.8528 32.4796C26.9137 32.4111 26.9877 32.3555 27.0704 32.316C27.153 32.2765 27.2428 32.2539 27.3343 32.2496C27.4259 32.2452 27.5173 32.2593 27.6034 32.2908C27.6894 32.3223 27.7683 32.3708 27.8353 32.4332C27.9024 32.4957 27.9563 32.5709 27.9938 32.6545C28.0314 32.7381 28.0519 32.8284 28.0541 32.92C28.0811 33.977 28.4128 35.0038 29.0093 35.8769C29.6058 36.7499 30.4418 37.4322 31.4167 37.8416C32.3586 38.2048 33.3908 38.2632 34.3676 38.0084C35.3445 37.7537 36.2168 37.1987 36.8614 36.4218C37.5601 35.594 38.0163 34.5891 38.1796 33.5181C38.3429 32.4472 38.207 31.352 37.7868 30.3535C37.7169 30.1862 37.7159 29.9979 37.7841 29.8299C37.8523 29.6618 37.9842 29.5275 38.151 29.4562C41.1385 28.1785 43.0727 24.9885 42.964 21.5176ZM30.363 27.995C30.5504 27.995 30.7336 27.9394 30.8894 27.8353C31.0452 27.7312 31.1666 27.5832 31.2383 27.41C31.31 27.2369 31.3287 27.0464 31.2921 26.8626C31.2555 26.6789 31.1653 26.5101 31.0327 26.3776C30.9002 26.2451 30.7314 26.1549 30.5476 26.1184C30.3638 26.0819 30.1733 26.1008 30.0002 26.1725C29.8271 26.2443 29.6792 26.3658 29.5751 26.5217C29.4711 26.6775 29.4156 26.8607 29.4157 27.0481C29.4161 27.2992 29.516 27.5399 29.6936 27.7174C29.8712 27.8949 30.1119 27.9947 30.363 27.995ZM32.0179 21.7264C32.0179 21.9138 32.0735 22.097 32.1776 22.2528C32.2817 22.4086 32.4297 22.53 32.6028 22.6017C32.7759 22.6734 32.9664 22.6921 33.1502 22.6555C33.334 22.6189 33.5028 22.5287 33.6353 22.3961C33.7677 22.2636 33.8579 22.0947 33.8944 21.9109C33.9309 21.7271 33.9121 21.5367 33.8403 21.3636C33.7685 21.1905 33.647 21.0425 33.4912 20.9385C33.3353 20.8345 33.1521 20.779 32.9648 20.7791C32.7136 20.7793 32.4729 20.8792 32.2953 21.0569C32.1178 21.2345 32.018 21.4753 32.0179 21.7264ZM31.5979 10.3794C31.7853 10.3795 31.9685 10.324 32.1244 10.2199C32.2802 10.1158 32.4017 9.9679 32.4735 9.79477C32.5452 9.62165 32.564 9.43113 32.5275 9.24732C32.491 9.06351 32.4007 8.89467 32.2682 8.76215C32.1357 8.62964 31.9668 8.5394 31.783 8.50287C31.5992 8.46633 31.4087 8.48513 31.2356 8.55689C31.0625 8.62865 30.9145 8.75015 30.8105 8.90601C30.7064 9.06187 30.6509 9.24509 30.651 9.4325C30.652 9.68309 30.7522 9.9231 30.9296 10.1001C31.107 10.277 31.3473 10.3766 31.5979 10.377V10.3794Z" fill="#1A1A1A"></path></svg>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c356827 e-transform elementor-widget elementor-widget-heading" data-id="c356827" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.02,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="#">Regulatory Requirements </a></h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ca65426 elementor-widget__width-inherit elementor-widget elementor-widget-text-editor" data-id="ca65426" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Government agencies are increasingly mandating cybersecurity assessments to ensure financial institutions are adequately prepared for cyber threats. Compliance with these requirements is essential to avoid legal and financial consequences.						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-dfa533a e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="dfa533a" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+				<div class="elementor-element elementor-element-3043384 elementor-view-default elementor-widget elementor-widget-icon" data-id="3043384" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg xmlns="http://www.w3.org/2000/svg" width="44" height="43" viewbox="0 0 44 43" fill="none"><path d="M13.5638 10.624C12.6423 10.3955 11.7217 10.2337 10.8039 10.1347C12.1215 9.21505 13.0164 7.44097 13.0164 5.40747C13.0164 2.68518 11.3813 0.994405 8.74901 0.994405C6.11669 0.994405 4.48161 2.68566 4.48161 5.40747C4.48161 7.43668 5.37222 9.20695 6.68504 10.1285C5.75921 10.227 4.83956 10.3913 3.92849 10.6255C1.39518 11.2771 0 12.6704 0 14.5487V25.2988C0 27.2524 1.48229 28.8784 3.42059 29.1897V41.9401C3.42059 42.1195 3.49199 42.2918 3.61861 42.4184C3.7457 42.5455 3.91754 42.6165 4.09699 42.6165H13.4015C13.7752 42.6165 14.0779 42.3137 14.0779 41.9401V29.1902C16.0162 28.8789 17.4985 27.2524 17.4985 25.2993V14.5492C17.4985 12.6751 16.0643 11.2447 13.5638 10.624ZM5.83442 5.40794C5.83442 2.74563 7.66038 2.34769 8.74853 2.34769C9.83669 2.34769 11.6626 2.74516 11.6626 5.40794C11.6626 7.63708 10.3555 9.45067 8.74853 9.45067C7.14201 9.45067 5.83442 7.63708 5.83442 5.40794ZM16.1452 25.2993C16.1452 26.5079 15.2646 27.5256 14.0779 27.8112V17.7418C14.0779 17.3681 13.7752 17.0654 13.4015 17.0654C13.0278 17.0654 12.7251 17.3681 12.7251 17.7418V41.2641H9.55441V31.1147C9.55441 30.741 9.25167 30.4383 8.87801 30.4383C8.50434 30.4383 8.2016 30.741 8.2016 31.1147V41.2641H4.7734V17.7418C4.7734 17.3681 4.47066 17.0654 4.09699 17.0654C3.72333 17.0654 3.42059 17.3681 3.42059 17.7418V27.8112C2.2339 27.5261 1.35329 26.5079 1.35329 25.2993V14.5492C1.35329 13.0088 2.93696 12.2782 4.26597 11.9364C7.18771 11.1848 10.2065 11.1852 13.2387 11.9378C14.3245 12.2072 16.1457 12.9046 16.1457 14.5492L16.1452 25.2993ZM42.7402 15.9505L35.0908 2.70137C34.3372 1.39568 32.9873 0.616455 31.4798 0.616455C29.9723 0.616455 28.6223 1.39568 27.8688 2.70137L20.2193 15.9505C19.4654 17.2562 19.4654 18.8147 20.2193 20.1204C20.9729 21.4256 22.3228 22.2053 23.8303 22.2053H39.1287C40.6362 22.2053 41.9862 21.4261 42.7397 20.1204C43.4942 18.8147 43.4942 17.2558 42.7402 15.9505ZM41.5683 19.4435C41.0589 20.325 40.1474 20.8515 39.1292 20.8515H23.8308C22.8126 20.8515 21.9006 20.325 21.3918 19.4435C20.8824 18.5614 20.8824 17.509 21.3918 16.6269L29.0412 3.37777C29.5505 2.49621 30.4621 1.96974 31.4802 1.96974C32.4984 1.96974 33.4105 2.49621 33.9193 3.37777L41.5687 16.6269C42.0776 17.5085 42.0776 18.5614 41.5683 19.4435ZM31.4798 15.2375C32.3404 15.2375 33.0387 14.5639 33.0696 13.7038L33.301 7.30245C33.3172 6.86071 33.1629 6.45849 32.8564 6.14052C32.5494 5.82207 32.1533 5.65404 31.7111 5.65404H31.2489C30.8067 5.65404 30.4107 5.82207 30.1036 6.14052C29.7966 6.45897 29.6429 6.86071 29.6586 7.30245L29.8899 13.7038C29.9208 14.5639 30.6191 15.2375 31.4798 15.2375ZM31.0775 7.08015C31.1285 7.02732 31.1751 7.00733 31.2489 7.00733H31.7111C31.7849 7.00733 31.8311 7.02684 31.8825 7.08015C31.9334 7.13299 31.9515 7.18012 31.9491 7.2539L31.7178 13.6552C31.713 13.7838 31.6088 13.8847 31.4802 13.8847C31.3517 13.8847 31.247 13.7838 31.2427 13.6552L31.0109 7.2539C31.0085 7.18012 31.0261 7.13299 31.0775 7.08015ZM31.4798 15.9753C30.4606 15.9753 29.6314 16.8045 29.6314 17.8236C29.6314 18.8428 30.4606 19.672 31.4798 19.672C32.4989 19.672 33.3281 18.8428 33.3281 17.8236C33.3281 16.8045 32.4989 15.9753 31.4798 15.9753ZM31.4798 18.3187C31.207 18.3187 30.9847 18.0969 30.9847 17.8236C30.9847 17.5509 31.2065 17.3286 31.4798 17.3286C31.7525 17.3286 31.9748 17.5504 31.9748 17.8236C31.9748 18.0964 31.753 18.3187 31.4798 18.3187Z" fill="#1A1A1A"></path></svg>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6462291 e-transform elementor-widget elementor-widget-heading" data-id="6462291" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.02,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="#">Public Trust</a></h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f5c53d4 elementor-widget__width-inherit elementor-widget elementor-widget-text-editor" data-id="f5c53d4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Maintaining public trust is vital for financial institutions. Demonstrating a commitment to robust cybersecurity through TIBER testing can reassure customers and stakeholders that their data and assets are secure.						</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-01a3857 e-con-full e-flex e-con e-parent" data-id="01a3857" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-9414cdd e-flex e-con-boxed e-con e-child" data-id="9414cdd" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-e669c4e animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="e669c4e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Example <span style="color:#ADCA2F;">Reports </span> </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9e7fe9d animated-slow elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-invisible elementor-widget elementor-widget-text-editor" data-id="9e7fe9d" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Check out some chosen examples of reports</p>						</div>
+				</div>
+		<div class="elementor-element elementor-element-a61237b e-flex e-con-boxed e-con e-child" data-id="a61237b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-b1d0e51 animated-slow e-flex e-con-boxed elementor-invisible e-con e-child" data-id="b1d0e51" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-31f829b elementor-widget elementor-widget-heading" data-id="31f829b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">TIBER Implementation guide</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a31e664 elementor-align-center elementor-widget elementor-widget-button" data-id="a31e664" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-right">
+				<i aria-hidden="true" class="hm hm-download"></i>			</span>
+						<span class="elementor-button-text">Download</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-fcb9314 animated-slow e-flex e-con-boxed elementor-invisible e-con e-child" data-id="fcb9314" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;zoomIn&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-57f40ab elementor-widget elementor-widget-heading" data-id="57f40ab" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">TIBER Scope specification</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4d616ec elementor-align-center elementor-widget elementor-widget-button" data-id="4d616ec" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-right">
+				<i aria-hidden="true" class="hm hm-download"></i>			</span>
+						<span class="elementor-button-text">Download</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-16ae6f1 animated-slow e-flex e-con-boxed elementor-invisible e-con e-child" data-id="16ae6f1" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-2b28fe3 elementor-widget elementor-widget-heading" data-id="2b28fe3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">TIBER Test Process Overview</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f072031 elementor-align-center elementor-widget elementor-widget-button" data-id="f072031" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-right">
+				<i aria-hidden="true" class="hm hm-download"></i>			</span>
+						<span class="elementor-button-text">Download</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-6ddf0de e-con-full e-flex e-con e-parent" data-id="6ddf0de" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-7926877 e-con-full e-flex e-con e-child" data-id="7926877" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-4fd090b animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="4fd090b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Companies that <span style="color:#ADCA2F;">trust </span> us</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6b5af4b elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-image-carousel" data-id="6b5af4b" data-element_type="widget" data-settings="{&quot;slides_to_show_mobile&quot;:&quot;2&quot;,&quot;slides_to_scroll_mobile&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;autoplay_speed&quot;:1000,&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:30,&quot;sizes&quot;:[]},&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:20,&quot;sizes&quot;:[]},&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image-carousel.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 08-11-2023 */
+.elementor-widget-image-carousel .swiper,.elementor-widget-image-carousel .swiper-container{position:static}.elementor-widget-image-carousel .swiper-container .swiper-slide figure,.elementor-widget-image-carousel .swiper .swiper-slide figure{line-height:inherit}.elementor-widget-image-carousel .swiper-slide{text-align:center}.elementor-image-carousel-wrapper:not(.swiper-container-initialized):not(.swiper-initialized) .swiper-slide{max-width:calc(100% / var(--e-image-carousel-slides-to-show, 3))}</style>		<div class="elementor-image-carousel-wrapper swiper" dir="ltr">
+			<div class="elementor-image-carousel swiper-wrapper" aria-live="off">
+								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 of 6"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="/wp-content/uploads/2023/09/companies-trust-banshie-1.svg" alt="companies trust banshie (1)"></figure></div>
+<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 of 6"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="/wp-content/uploads/2023/09/companies-trust-banshie-2.svg" alt="companies trust banshie (2)"></figure></div>
+<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 of 6"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="/wp-content/uploads/2023/09/companies-trust-banshie-3.svg" alt="companies trust banshie (3)"></figure></div>
+<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 of 6"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="/wp-content/uploads/2023/09/companies-trust-banshie-4.svg" alt="companies trust banshie (4)"></figure></div>
+<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="5 of 6"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="/wp-content/uploads/2023/10/companies-trust-banshie-6.svg" alt="companies trust banshie (6)"></figure></div>
+<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="6 of 6"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="/wp-content/uploads/2023/10/companies-trust-banshie-5.svg" alt="companies trust banshie (5)"></figure></div>			</div>
+							
+									</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-3209142 e-con-full elementor-hidden-mobile e-flex e-con e-child" data-id="3209142" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-5015f81 animated-slow e-flex e-con-boxed elementor-invisible e-con e-child" data-id="5015f81" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-e2c77d0 e-transform elementor-widget elementor-widget-image" data-id="e2c77d0" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.2,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="78" height="51" src="/wp-content/uploads/2023/09/companies-trust-banshie-2.svg" class="attachment-full size-full wp-image-430" alt="companies trust banshie (2)">															</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-1dd1b75 animated-slow e-flex e-con-boxed elementor-invisible e-con e-child" data-id="1dd1b75" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-8c813ce e-transform elementor-widget elementor-widget-image" data-id="8c813ce" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.2,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="186" height="67" src="/wp-content/uploads/2023/09/companies-trust-banshie-3.svg" class="attachment-full size-full wp-image-431" alt="companies trust banshie (3)">															</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-9f3d4a1 animated-slow e-flex e-con-boxed elementor-invisible e-con e-child" data-id="9f3d4a1" data-element_type="container" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-7ee856d e-transform elementor-widget elementor-widget-image" data-id="7ee856d" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.2,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="149" height="99" src="/wp-content/uploads/2023/09/companies-trust-banshie-4.svg" class="attachment-full size-full wp-image-432" alt="companies trust banshie (4)">															</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-81260ac e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="81260ac" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
+				<div class="elementor-element elementor-element-aa1fdaa e-transform elementor-widget elementor-widget-image" data-id="aa1fdaa" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.2,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="148" height="98" src="/wp-content/uploads/2023/09/companies-trust-banshie-1.svg" class="attachment-full size-full wp-image-429" alt="companies trust banshie (1)">															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-2901560 e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="2901560" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
+				<div class="elementor-element elementor-element-7f5347f e-transform elementor-widget elementor-widget-image" data-id="7f5347f" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.2,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="97" height="78" src="/wp-content/uploads/2023/10/companies-trust-banshie-6.svg" class="attachment-full size-full wp-image-3052" alt="companies trust banshie (6)">															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-8da5b9b e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="8da5b9b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
+				<div class="elementor-element elementor-element-de283c5 e-transform elementor-widget elementor-widget-image" data-id="de283c5" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.2,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="192" height="43" src="/wp-content/uploads/2023/10/companies-trust-banshie-5.svg" class="attachment-full size-full wp-image-3051" alt="companies trust banshie (5)">															</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-3c31073 e-con-full e-flex e-con e-parent" data-id="3c31073" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-a6ce71b e-con-full e-flex e-con e-child" data-id="a6ce71b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-e8ea24e animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="e8ea24e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Our <span style="color:#ADCA2F;">Services </span> </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-263a0cd animated-slow elementor-widget__width-inherit elementor-widget-mobile__width-inherit elementor-invisible elementor-widget elementor-widget-text-editor" data-id="263a0cd" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Modern and decisively focused, our services are powered by an elite team of cybersecurity experts.</p>						</div>
+				</div>
+		<div class="elementor-element elementor-element-d181fa3 e-con-full e-flex e-con e-child" data-id="d181fa3" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-d5e1f84 e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="d5e1f84" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+				<div class="elementor-element elementor-element-462c208 elementor-view-default elementor-widget elementor-widget-icon" data-id="462c208" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon elementor-animation-grow">
+			<svg xmlns="http://www.w3.org/2000/svg" width="52" height="36" viewbox="0 0 52 36" fill="none"><path d="M24.8678 10.2174V21.5217L13.5634 10.2174H24.8678Z" fill="#6C7648"></path><path d="M27.1322 10.2174V21.5217L38.4366 10.2174H27.1322Z" fill="#6C7648"></path><path d="M40.6957 6.8264V18.1307L52 6.8264H40.6957Z" fill="#6C7648"></path><path d="M11.3043 6.8264V18.1307L0 6.8264H11.3043Z" fill="#6C7648"></path><path d="M26.0788 35.2479L34.0721 27.2545H18.0854L26.0788 35.2479Z" fill="#6C7648"></path><path d="M26.0808 0.043457L18.0875 8.03683L34.0742 8.03683L26.0808 0.043457Z" fill="#6C7648"></path><path d="M13.564 24.9133L13.564 13.609L24.8683 24.9133H13.564Z" fill="#6C7648"></path><path d="M38.436 24.9133L38.436 13.609L27.1317 24.9133H38.436Z" fill="#6C7648"></path><path d="M13.564 24.9133L13.564 13.609L24.8683 24.9133H13.564Z" fill="#6C7648"></path><path d="M38.436 24.9133L38.436 13.609L27.1317 24.9133H38.436Z" fill="#6C7648"></path></svg>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-31e98d4 e-transform elementor-widget elementor-widget-heading" data-id="31e98d4" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Offensive <br> Services</h2>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-3cf8509 e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="3cf8509" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+				<div class="elementor-element elementor-element-7719def elementor-view-default elementor-widget elementor-widget-icon" data-id="7719def" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon elementor-animation-grow">
+			<svg xmlns="http://www.w3.org/2000/svg" width="41" height="21" viewbox="0 0 41 21" fill="none"><path d="M10.7894 9.71056L0 20.5V9.71056H10.7894Z" fill="#6C7648"></path><path d="M40.9969 9.71056L40.997 20.5L30.2075 9.71056H40.9969Z" fill="#6C7648"></path><path d="M20.5763 17.4169L12.947 9.78763L28.2056 9.78764L20.5763 17.4169Z" fill="#6C7648"></path><path d="M20.5779 0L28.2072 7.62927L12.9487 7.62928L20.5779 0Z" fill="#6C7648"></path><path d="M29.2024 11.8687L36.8316 19.498L21.5731 19.498L29.2024 11.8687Z" fill="#6C7648"></path><path d="M11.9455 11.8687L19.5748 19.498L4.31622 19.498L11.9455 11.8687Z" fill="#6C7648"></path></svg>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-00ef309 e-transform elementor-widget elementor-widget-heading" data-id="00ef309" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="#">Defensive <br> Services</a></h2>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-c5f40b6 e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="c5f40b6" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+				<div class="elementor-element elementor-element-ff040e7 elementor-view-default elementor-widget elementor-widget-icon" data-id="ff040e7" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon elementor-animation-grow">
+			<svg xmlns="http://www.w3.org/2000/svg" width="51" height="12" viewbox="0 0 51 12" fill="none"><path d="M15.4196 1.82415e-06V11.8605L3.55906 1.82415e-06H15.4196Z" fill="#6C7648"></path><path d="M33.2138 1.82415e-06V11.8605L21.3533 1.82415e-06H33.2138Z" fill="#6C7648"></path><path d="M51 1.82415e-06V11.8605L39.1395 1.82415e-06H51Z" fill="#6C7648"></path><path d="M1.03688e-06 11.8605L0 0L11.8605 11.8605L1.03688e-06 11.8605Z" fill="#6C7648"></path><path d="M1.03688e-06 11.8605L0 0L11.8605 11.8605L1.03688e-06 11.8605Z" fill="#6C7648"></path><path d="M17.7922 11.8605L17.7922 0L29.6527 11.8605L17.7922 11.8605Z" fill="#6C7648"></path><path d="M35.5844 11.8605V0L47.4449 11.8605L35.5844 11.8605Z" fill="#6C7648"></path></svg>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-eb5885a e-transform elementor-widget elementor-widget-heading" data-id="eb5885a" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Blockchain <br>
+Security</h2>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-b797eb4 e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="b797eb4" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+				<div class="elementor-element elementor-element-d7db211 elementor-view-default elementor-widget elementor-widget-icon" data-id="d7db211" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon elementor-animation-grow">
+			<svg xmlns="http://www.w3.org/2000/svg" width="34" height="20" viewbox="0 0 34 20" fill="none"><path d="M17.5507 9.59795L27.2995 19.3468V9.59795L17.5507 9.59795Z" fill="#6C7648"></path><path d="M33.2848 7.71768H19.4979L26.3914 0.824219L33.2848 7.71768Z" fill="#6C7648"></path><path d="M13.7869 7.71768H0L6.89346 0.824219L13.7869 7.71768Z" fill="#6C7648"></path><path d="M9.81641 0.893369L23.6033 0.893367L16.7099 7.78682L9.81641 0.893369Z" fill="#6C7648"></path><path d="M5.84952 9.59795L5.84952 19.3468L15.5984 9.59795H5.84952Z" fill="#6C7648"></path></svg>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-88e9c5d e-transform elementor-widget elementor-widget-heading" data-id="88e9c5d" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Managed <br>
+Services</h2>		</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-4a2647a e-con-full elementor-hidden-mobile e-flex e-con e-parent" data-id="4a2647a" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-564e5c2 e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="564e5c2" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;}">
+				<div class="elementor-element elementor-element-f4f84b0 elementor-widget elementor-widget-image" data-id="f4f84b0" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="1200" height="993" src="/wp-content/uploads/2023/09/banshie-reach-out-1.jpg" class="attachment-full size-full wp-image-968" alt="banshie reach out 1">															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-b20e0cc e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="b20e0cc" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;}">
+				<div class="elementor-element elementor-element-0128b75 elementor-widget elementor-widget-heading" data-id="0128b75" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Reach out</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6de9706 elementor-widget elementor-widget-text-editor" data-id="6de9706" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Our mission is to help companies detect and respond to threats, and secure their data. We offer no filter advise, and guide you to a more secure future.						</div>
+				</div>
+				<div class="elementor-element elementor-element-76298aa elementor-widget elementor-widget-ucaddon_creative_buttons" data-id="76298aa" data-element_type="widget" data-widget_type="ucaddon_creative_buttons.default">
+				<div class="elementor-widget-container">
+			<!-- start Creative Button Hovers -->
+
+			<style type="text/css">/* widget: Creative Button Hovers */
+
+#uc_creative_buttons_elementor28283.uc_creative_buttons{
+  text-align: center;
+}
+#uc_creative_buttons_elementor28283.uc_creative_buttons .uc_button,
+#uc_creative_buttons_elementor28283.uc_creative_buttons .uc_button::after {
+	transition: all 0.5s;
+}
+
+#uc_creative_buttons_elementor28283.uc_creative_buttons .uc_button {
+
+
+  display: inline-block;
+  overflow:hidden;
+}</style>
+
+			<div class="uc_creative_buttons" id="uc_creative_buttons_elementor28283">
+  <div class="container">
+    <a href="#" class="uc_button button-padding uc_btn-2"><span>Get started today</span></a>
+  </div>
+</div>
+			<!-- end Creative Button Hovers -->		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-897e42f e-con-full elementor-hidden-desktop elementor-hidden-tablet e-flex e-con e-parent" data-id="897e42f" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-e89b405 e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="e89b405" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;}">
+				<div class="elementor-element elementor-element-c4f5d5f elementor-widget elementor-widget-heading" data-id="c4f5d5f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Reach out</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f82ce45 elementor-widget elementor-widget-text-editor" data-id="f82ce45" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Our mission is to help companies detect and respond to threats, and secure their data. We offer no filter advise, and guide you to a more secure future.						</div>
+				</div>
+				<div class="elementor-element elementor-element-6da3dce elementor-mobile-align-justify elementor-widget elementor-widget-button" data-id="6da3dce" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="#">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Get started today</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-11c456a e-con-full animated-slow e-flex elementor-invisible e-con e-child" data-id="11c456a" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;}">
+				<div class="elementor-element elementor-element-d1f008e elementor-widget elementor-widget-image" data-id="d1f008e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="1200" height="993" src="/wp-content/uploads/2023/09/banshie-reach-out-1.jpg" class="attachment-full size-full wp-image-968" alt="banshie reach out 1">															</div>
+				</div>
+				</div>
+				</div>
+							</div>
+				<div class="post-tags">
+					</div>
+			</div>
+
+	
+</main>
+
+			<div data-elementor-type="footer" data-elementor-id="663" class="elementor elementor-663 elementor-location-footer" data-elementor-post-type="elementor_library">
+						<div class="elementor-element elementor-element-83982a7 e-con-full e-flex e-con e-parent" data-id="83982a7" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-dcc1d59 e-con-full e-flex e-con e-child" data-id="dcc1d59" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-d7e9779 elementor-widget elementor-widget-image" data-id="d7e9779" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="158" height="29" src="/wp-content/uploads/2023/09/banshie-logo-green.svg" class="attachment-full size-full wp-image-6342" alt="banshie logo green" loading="lazy">															</div>
+				</div>
+		<div class="elementor-element elementor-element-6686970 e-flex e-con-boxed e-con e-child" data-id="6686970" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-0012408 e-transform elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="0012408" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.2,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewbox="0 0 32 33" fill="none"><circle cx="16" cy="16.2329" r="16" fill="#ADCA2F"></circle><path d="M15.9996 9.83252C15.1591 9.83252 14.3269 9.99806 13.5504 10.3197C12.774 10.6413 12.0684 11.1127 11.4741 11.707C10.2739 12.9073 9.59961 14.5351 9.59961 16.2325C9.59961 19.0613 11.4364 21.4613 13.9772 22.3125C14.2972 22.3637 14.3996 22.1653 14.3996 21.9925V20.9109C12.6268 21.2949 12.2492 20.0533 12.2492 20.0533C11.9548 19.3109 11.5388 19.1125 11.5388 19.1125C10.9564 18.7157 11.5836 18.7285 11.5836 18.7285C12.2236 18.7733 12.5628 19.3877 12.5628 19.3877C13.1196 20.3605 14.0604 20.0725 14.4252 19.9189C14.4828 19.5029 14.6492 19.2213 14.8284 19.0613C13.4076 18.9013 11.9164 18.3509 11.9164 15.9125C11.9164 15.2021 12.1596 14.6325 12.5756 14.1781C12.5116 14.0181 12.2876 13.3525 12.6396 12.4885C12.6396 12.4885 13.1772 12.3157 14.3996 13.1413C14.9052 13.0005 15.4556 12.9301 15.9996 12.9301C16.5436 12.9301 17.094 13.0005 17.5996 13.1413C18.822 12.3157 19.3596 12.4885 19.3596 12.4885C19.7116 13.3525 19.4876 14.0181 19.4236 14.1781C19.8396 14.6325 20.0828 15.2021 20.0828 15.9125C20.0828 18.3573 18.5852 18.8949 17.158 19.0549C17.3884 19.2533 17.5996 19.6437 17.5996 20.2389V21.9925C17.5996 22.1653 17.702 22.3701 18.0284 22.3125C20.5692 21.4549 22.3996 19.0613 22.3996 16.2325C22.3996 15.3921 22.2341 14.5598 21.9124 13.7833C21.5908 13.0069 21.1194 12.3013 20.5251 11.707C19.9308 11.1127 19.2253 10.6413 18.4488 10.3197C17.6723 9.99806 16.8401 9.83252 15.9996 9.83252Z" fill="#1A1A1A"></path></svg>						</span>
+										<span class="elementor-icon-list-text"></span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f40a5d0 e-transform elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="f40a5d0" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.2,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewbox="0 0 32 33" fill="none"><circle cx="16" cy="16.2329" r="16" fill="#ADCA2F"></circle><path d="M20.4802 10.4727C20.8197 10.4727 21.1453 10.6075 21.3853 10.8476C21.6254 11.0876 21.7602 11.4132 21.7602 11.7527V20.7127C21.7602 21.0521 21.6254 21.3777 21.3853 21.6178C21.1453 21.8578 20.8197 21.9927 20.4802 21.9927H11.5202C11.1808 21.9927 10.8552 21.8578 10.6151 21.6178C10.3751 21.3777 10.2402 21.0521 10.2402 20.7127V11.7527C10.2402 11.4132 10.3751 11.0876 10.6151 10.8476C10.8552 10.6075 11.1808 10.4727 11.5202 10.4727H20.4802ZM20.1602 20.3927V17.0007C20.1602 16.4473 19.9404 15.9166 19.5491 15.5253C19.1579 15.1341 18.6272 14.9143 18.0738 14.9143C17.5298 14.9143 16.8962 15.2471 16.589 15.7463V15.0359H14.8034V20.3927H16.589V17.2375C16.589 16.7447 16.9858 16.3415 17.4786 16.3415C17.7163 16.3415 17.9442 16.4359 18.1122 16.6039C18.2802 16.7719 18.3746 16.9998 18.3746 17.2375V20.3927H20.1602ZM12.7234 14.0311C13.0086 14.0311 13.2821 13.9178 13.4837 13.7161C13.6854 13.5145 13.7986 13.241 13.7986 12.9559C13.7986 12.3607 13.3186 11.8743 12.7234 11.8743C12.4366 11.8743 12.1615 11.9882 11.9586 12.191C11.7558 12.3939 11.6418 12.669 11.6418 12.9559C11.6418 13.5511 12.1282 14.0311 12.7234 14.0311ZM13.613 20.3927V15.0359H11.8402V20.3927H13.613Z" fill="#1A1A1A"></path></svg>						</span>
+										<span class="elementor-icon-list-text"></span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-7d829c6 e-transform elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="7d829c6" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.2,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewbox="0 0 32 33" fill="none"><circle cx="16" cy="16.2329" r="16" fill="#ADCA2F"></circle><path d="M22.6954 12.3928C22.2026 12.6168 21.6714 12.764 21.121 12.8344C21.6842 12.4952 22.1194 11.9576 22.3242 11.3112C21.793 11.6312 21.2042 11.8552 20.5834 11.9832C20.0778 11.4328 19.3674 11.1128 18.561 11.1128C17.057 11.1128 15.8282 12.3416 15.8282 13.8584C15.8282 14.076 15.8538 14.2872 15.8986 14.4856C13.6202 14.3704 11.5914 13.276 10.241 11.6184C10.0042 12.0216 9.86984 12.4952 9.86984 12.9944C9.86984 13.948 10.3498 14.7928 11.0922 15.2728C10.6378 15.2728 10.2154 15.1448 9.84424 14.9528V14.972C9.84424 16.3032 10.7914 17.4168 12.0458 17.6664C11.6431 17.7766 11.2203 17.7919 10.8106 17.7112C10.9845 18.2568 11.3249 18.7342 11.7841 19.0763C12.2433 19.4184 12.7981 19.608 13.3706 19.6184C12.4002 20.3867 11.1972 20.802 9.95944 20.796C9.74184 20.796 9.52424 20.7832 9.30664 20.7576C10.5226 21.5384 11.969 21.9928 13.5178 21.9928C18.561 21.9928 21.3322 17.8072 21.3322 14.1784C21.3322 14.0568 21.3322 13.9416 21.3258 13.82C21.8634 13.436 22.3242 12.9496 22.6954 12.3928Z" fill="#1A1A1A"></path></svg>						</span>
+										<span class="elementor-icon-list-text"></span>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-26f4c20 e-con-full e-flex e-con e-child" data-id="26f4c20" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-d4d2670 elementor-align-right elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="d4d2670" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="tel:+454245%202048">
+
+											<span class="elementor-icon-list-text">+45 4245 2048</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="mailto:info@banshie.com">
+
+											<span class="elementor-icon-list-text"><span style="text-decoration: underline;">info@banshie.com</span></span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+										<span class="elementor-icon-list-text">Kigkurren 8N, 4.th floor</span>
+									</li>
+								<li class="elementor-icon-list-item">
+										<span class="elementor-icon-list-text">2300 Copenhagen</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				</div>
+				</div>
+						</div>
+		
+		<div data-elementor-type="popup" data-elementor-id="1690" class="elementor elementor-1690 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;fadeInLeft&quot;,&quot;exit_animation&quot;:&quot;slideInRight&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.5,&quot;sizes&quot;:[]},&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:[]}" data-elementor-post-type="elementor_library">
+						<div class="elementor-element elementor-element-ee2f3a7 e-con-full e-flex e-con e-parent" data-id="ee2f3a7" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+		<div class="elementor-element elementor-element-7088e08 e-con-full e-flex e-con e-child" data-id="7088e08" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				</div>
+		<div class="elementor-element elementor-element-d0d0882 e-con-full e-flex e-con e-child" data-id="d0d0882" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-ebbe880 elementor-widget elementor-widget-ucaddon_ue_accordion_menu" data-id="ebbe880" data-element_type="widget" data-widget_type="ucaddon_ue_accordion_menu.default">
+				<div class="elementor-widget-container">
+			<!-- start Accordion Menu -->
+			<style type="text/css">/* widget: Accordion Menu */
+
+#uc_ue_accordion_menu_elementor34436 *
+{
+  box-sizing:border-box;
+}
+
+#uc_ue_accordion_menu_elementor34436 .uc-side-menu-wrapper
+{
+  position:relative;
+}
+
+	
+	
+#uc_ue_accordion_menu_elementor34436 .collapsed .uc-menu-item-pointer:after{
+	content: "";
+    background-image: url(/wp-content/uploads/ac_assets/ue_accordion_menu//fa_unicode.svg);
+    
+      
+            font-family: "Font Awesome 5 Free";
+        content: "\f107" !important;;
+        font-weight: 900;
+        line-height:1em;
+  		background-image:none;
+      
+
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+
+    vertical-align: middle;
+}
+
+#uc_ue_accordion_menu_elementor34436 .expanded .uc-menu-item-pointer:after{
+    
+  	content:"";
+    background-image: url(/wp-content/uploads/ac_assets/ue_accordion_menu//fa_unicode.svg);
+	
+      
+            font-family: "Font Awesome 5 Free";
+        content: "\f106" !important;;
+        font-weight: 900;
+        line-height:1em;
+  		background-image:none;
+        
+
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    vertical-align: middle;
+}
+
+#uc_ue_accordion_menu_elementor34436 .uc-side-menu-items ul li a{
+	display: flex;
+  	justify-content: start;  	
+}
+
+	
+
+
+#uc_ue_accordion_menu_elementor34436 .uc-side-menu-items
+{
+  position:relative;
+  overflow-x: hidden;
+  transition:1s;
+}
+
+#uc_ue_accordion_menu_elementor34436 .open_side_menu
+{
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transition:1s;
+}
+
+#uc_ue_accordion_menu_elementor34436 .uc-side-menu-title
+{
+  text-align:left;
+}
+
+
+#uc_ue_accordion_menu_elementor34436 .uc-side-menu-items ul
+{
+  padding:0px;
+  margin:0px;
+  list-style:none;
+}
+
+#uc_ue_accordion_menu_elementor34436 .uc-side-menu-items ul a
+{
+  display:block;
+  text-decoration:none;
+}
+
+
+#uc_ue_accordion_menu_elementor34436 .sub-menu {
+    overflow: hidden;
+    list-style: none;
+    height: auto;
+    transition: 0.5s;
+    display:none;
+}
+
+.uc-no-transition .sub-menu {
+    transition: none;  
+}</style>
+
+			<div id="uc_ue_accordion_menu_elementor34436" class="side-menu-holder" data-closeothers="no" data-clickable="true" data-start-closed-always="false">
+
+  <div class="uc-side-menu-items">
+    <div class="uc-header">
+
+      
+    </div>
+
+    <ul id="menu-main-menu" class="uc-list-menu">
+<li id="menu-item-4610" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4610"><a href="/">Home</a></li>
+<li id="menu-item-4611" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4611">
+<a href="/services/">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-4615" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4615"><a href="/offensive-services/">Offensive Services</a></li>
+	<li id="menu-item-4613" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4613"><a href="/defensive-services/">Defensive Services</a></li>
+	<li id="menu-item-4612" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4612"><a href="/blockchain-security/">Blockchain Security</a></li>
+	<li id="menu-item-4614" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4614"><a href="/managed-services/">Managed Services</a></li>
+</ul>
+</li>
+<li id="menu-item-6121" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5200 current_page_item menu-item-6121"><a href="/red-team/" aria-current="page">Tiber</a></li>
+<li id="menu-item-6122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6122"><a href="/technology/">Technology</a></li>
+<li id="menu-item-4618" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4618"><a href="/news/">Insights</a></li>
+<li id="menu-item-4616" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4616"><a href="/about/">About us</a></li>
+<li id="menu-item-4617" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4617"><a href="/contact/">Contact us</a></li>
+</ul>
+    
+  </div>
+
+</div>
+			<!-- end Accordion Menu -->		</div>
+				</div>
+		<div class="elementor-element elementor-element-57d98fe e-con-full e-flex e-con e-child" data-id="57d98fe" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+				<div class="elementor-element elementor-element-afebae9 elementor-align-center elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="afebae9" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="tel:+454245%202048">
+
+											<span class="elementor-icon-list-text">+45 4245 2048</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="mailto:info@banshie.com">
+
+											<span class="elementor-icon-list-text">info@banshie.com</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-de0ff35 e-flex e-con-boxed e-con e-child" data-id="de0ff35" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-3ff35e1 e-transform elementor-mobile-align-center elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3ff35e1" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.2,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewbox="0 0 32 33" fill="none"><circle cx="16" cy="16.2329" r="16" fill="#ADCA2F"></circle><path d="M15.9996 9.83252C15.1591 9.83252 14.3269 9.99806 13.5504 10.3197C12.774 10.6413 12.0684 11.1127 11.4741 11.707C10.2739 12.9073 9.59961 14.5351 9.59961 16.2325C9.59961 19.0613 11.4364 21.4613 13.9772 22.3125C14.2972 22.3637 14.3996 22.1653 14.3996 21.9925V20.9109C12.6268 21.2949 12.2492 20.0533 12.2492 20.0533C11.9548 19.3109 11.5388 19.1125 11.5388 19.1125C10.9564 18.7157 11.5836 18.7285 11.5836 18.7285C12.2236 18.7733 12.5628 19.3877 12.5628 19.3877C13.1196 20.3605 14.0604 20.0725 14.4252 19.9189C14.4828 19.5029 14.6492 19.2213 14.8284 19.0613C13.4076 18.9013 11.9164 18.3509 11.9164 15.9125C11.9164 15.2021 12.1596 14.6325 12.5756 14.1781C12.5116 14.0181 12.2876 13.3525 12.6396 12.4885C12.6396 12.4885 13.1772 12.3157 14.3996 13.1413C14.9052 13.0005 15.4556 12.9301 15.9996 12.9301C16.5436 12.9301 17.094 13.0005 17.5996 13.1413C18.822 12.3157 19.3596 12.4885 19.3596 12.4885C19.7116 13.3525 19.4876 14.0181 19.4236 14.1781C19.8396 14.6325 20.0828 15.2021 20.0828 15.9125C20.0828 18.3573 18.5852 18.8949 17.158 19.0549C17.3884 19.2533 17.5996 19.6437 17.5996 20.2389V21.9925C17.5996 22.1653 17.702 22.3701 18.0284 22.3125C20.5692 21.4549 22.3996 19.0613 22.3996 16.2325C22.3996 15.3921 22.2341 14.5598 21.9124 13.7833C21.5908 13.0069 21.1194 12.3013 20.5251 11.707C19.9308 11.1127 19.2253 10.6413 18.4488 10.3197C17.6723 9.99806 16.8401 9.83252 15.9996 9.83252Z" fill="#1A1A1A"></path></svg>						</span>
+										<span class="elementor-icon-list-text"></span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1683e3e e-transform elementor-mobile-align-center elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="1683e3e" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.2,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewbox="0 0 32 33" fill="none"><circle cx="16" cy="16.2329" r="16" fill="#ADCA2F"></circle><path d="M20.4802 10.4727C20.8197 10.4727 21.1453 10.6075 21.3853 10.8476C21.6254 11.0876 21.7602 11.4132 21.7602 11.7527V20.7127C21.7602 21.0521 21.6254 21.3777 21.3853 21.6178C21.1453 21.8578 20.8197 21.9927 20.4802 21.9927H11.5202C11.1808 21.9927 10.8552 21.8578 10.6151 21.6178C10.3751 21.3777 10.2402 21.0521 10.2402 20.7127V11.7527C10.2402 11.4132 10.3751 11.0876 10.6151 10.8476C10.8552 10.6075 11.1808 10.4727 11.5202 10.4727H20.4802ZM20.1602 20.3927V17.0007C20.1602 16.4473 19.9404 15.9166 19.5491 15.5253C19.1579 15.1341 18.6272 14.9143 18.0738 14.9143C17.5298 14.9143 16.8962 15.2471 16.589 15.7463V15.0359H14.8034V20.3927H16.589V17.2375C16.589 16.7447 16.9858 16.3415 17.4786 16.3415C17.7163 16.3415 17.9442 16.4359 18.1122 16.6039C18.2802 16.7719 18.3746 16.9998 18.3746 17.2375V20.3927H20.1602ZM12.7234 14.0311C13.0086 14.0311 13.2821 13.9178 13.4837 13.7161C13.6854 13.5145 13.7986 13.241 13.7986 12.9559C13.7986 12.3607 13.3186 11.8743 12.7234 11.8743C12.4366 11.8743 12.1615 11.9882 11.9586 12.191C11.7558 12.3939 11.6418 12.669 11.6418 12.9559C11.6418 13.5511 12.1282 14.0311 12.7234 14.0311ZM13.613 20.3927V15.0359H11.8402V20.3927H13.613Z" fill="#1A1A1A"></path></svg>						</span>
+										<span class="elementor-icon-list-text"></span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-b8761b2 e-transform elementor-mobile-align-center elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="b8761b2" data-element_type="widget" data-settings="{&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.2,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewbox="0 0 32 33" fill="none"><circle cx="16" cy="16.2329" r="16" fill="#ADCA2F"></circle><path d="M22.6954 12.3928C22.2026 12.6168 21.6714 12.764 21.121 12.8344C21.6842 12.4952 22.1194 11.9576 22.3242 11.3112C21.793 11.6312 21.2042 11.8552 20.5834 11.9832C20.0778 11.4328 19.3674 11.1128 18.561 11.1128C17.057 11.1128 15.8282 12.3416 15.8282 13.8584C15.8282 14.076 15.8538 14.2872 15.8986 14.4856C13.6202 14.3704 11.5914 13.276 10.241 11.6184C10.0042 12.0216 9.86984 12.4952 9.86984 12.9944C9.86984 13.948 10.3498 14.7928 11.0922 15.2728C10.6378 15.2728 10.2154 15.1448 9.84424 14.9528V14.972C9.84424 16.3032 10.7914 17.4168 12.0458 17.6664C11.6431 17.7766 11.2203 17.7919 10.8106 17.7112C10.9845 18.2568 11.3249 18.7342 11.7841 19.0763C12.2433 19.4184 12.7981 19.608 13.3706 19.6184C12.4002 20.3867 11.1972 20.802 9.95944 20.796C9.74184 20.796 9.52424 20.7832 9.30664 20.7576C10.5226 21.5384 11.969 21.9928 13.5178 21.9928C18.561 21.9928 21.3322 17.8072 21.3322 14.1784C21.3322 14.0568 21.3322 13.9416 21.3258 13.82C21.8634 13.436 22.3242 12.9496 22.6954 12.3928Z" fill="#1A1A1A"></path></svg>						</span>
+										<span class="elementor-icon-list-text"></span>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-9fcf3db elementor-hidden-desktop e-flex e-con-boxed e-con e-child" data-id="9fcf3db" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-add14b4 elementor-widget elementor-widget-heading" data-id="add14b4" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">I’m under <br>attack</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-44a2428 elementor-mobile-align-justify elementor-align-center elementor-tablet-align-left elementor-widget elementor-widget-button" data-id="44a2428" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Call Now</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-61bc92a e-con-full e-flex e-con e-child" data-id="61bc92a" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+		<div class="elementor-element elementor-element-3d14eb6 e-flex e-con-boxed e-con e-child" data-id="3d14eb6" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-31f0c7d e-flex e-con-boxed e-con e-child" data-id="31f0c7d" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-0c58239 elementor-hidden-tablet elementor-hidden-mobile e-flex e-con-boxed e-con e-child" data-id="0c58239" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-8690c3c elementor-widget elementor-widget-heading" data-id="8690c3c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">I’m under <br>attack</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4fa8f67 elementor-mobile-align-justify elementor-align-center elementor-widget elementor-widget-button" data-id="4fa8f67" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Call Now</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</div>
+						</div>
+		<link rel="stylesheet" id="e-animations-css" href="/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.17.3" media="all">
+<script src="/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=1.0.0" id="hello-theme-frontend-js"></script>
+<script id="happy-elementor-addons-js-extra">var HappyLocalize = {"ajax_url":"\/wp-admin\/admin-ajax.php","nonce":"46aa6607df","pdf_js_lib":"\/wp-content\/plugins\/happy-elementor-addons\/assets\/vendor\/pdfjs\/lib"};</script>
+<script src="/wp-content/plugins/happy-elementor-addons/assets/js/happy-addons.min.js?ver=3.9.1.1" id="happy-elementor-addons-js"></script>
+<script id="happy-addons-pro-js-extra">var HappyProLocalize = {"ajax_url":"\/wp-admin\/admin-ajax.php","nonce":"783d2254bc"};</script>
+<script src="/wp-content/plugins/happy-elementor-addons-pro/assets/js/happy-addons-pro.js?ver=2.9.1" id="happy-addons-pro-js"></script>
+<script src="/wp-content/uploads/wpmss/wpmssab.min.js?ver=1695906854" id="wpmssab-js"></script>
+<script src="/wp-content/plugins/mousewheel-smooth-scroll/js/SmoothScroll.min.js?ver=1.4.10" id="SmoothScroll-js"></script>
+<script src="/wp-content/uploads/wpmss/wpmss.min.js?ver=1695906854" id="wpmss-js"></script>
+<script src="/wp-content/uploads/ac_assets/ue_accordion_menu/menu.js?ver=1.5.54" id="uc_ac_assets_file_menu_js_7176-js"></script>
+<script src="/wp-content/plugins/elementorpro-3171/assets/js/webpack-pro.runtime.min.js?ver=3.17.1" id="elementor-pro-webpack-runtime-js"></script>
+<script src="/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.17.3" id="elementor-webpack-runtime-js"></script>
+<script src="/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.17.3" id="elementor-frontend-modules-js"></script>
+<script src="/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script src="/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0" id="regenerator-runtime-js"></script>
+<script src="/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script src="/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js"></script>
+<script src="/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
+</script>
+<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":"\/wp-admin\/admin-ajax.php","nonce":"2d03dd966d","urls":{"assets":"\/wp-content\/plugins\/elementorpro-3171\/assets\/","rest":"\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"\/wp-content\/plugins\/elementorpro-3171\/modules\/lottie\/assets\/animations\/default.json"}};</script>
+<script src="/wp-content/plugins/elementorpro-3171/assets/js/frontend.min.js?ver=3.17.1" id="elementor-pro-frontend-js"></script>
+<script src="/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script src="/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.17.3","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"landing-pages":true,"e_global_styleguide":true,"page-transitions":true,"notes":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":5200,"title":"Red%20Teaming%20%7C%20Banshie","excerpt":"","featuredImage":false}};</script>
+<script src="/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.17.3" id="elementor-frontend-js"></script>
+<script src="/wp-content/plugins/elementorpro-3171/assets/js/elements-handlers.min.js?ver=3.17.1" id="pro-elements-handlers-js"></script>
+<script src="/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script id="wp-util-js-extra">var _wpUtilSettings = {"ajax":{"url":"\/wordpress\/wp-admin\/admin-ajax.php"}};</script>
+<script src="/wp-includes/js/wp-util.min.js?ver=6.4.1" id="wp-util-js"></script>
+<script id="wpforms-elementor-js-extra">var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"};</script>
+<script src="/wp-content/plugins/wpforms/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2" id="wpforms-elementor-js"></script>
+
+<!--   Unlimited Elements 1.5.54 Scripts --> 
+<script type="text/javascript" id="unlimited-elements-scripts">/* Accordion Menu scripts: */ 
+
+jQuery(document).ready(function(){	
+function uc_ue_accordion_menu_elementor34436_start(){
+			
+		
+      UCAccordionMenu("uc_ue_accordion_menu_elementor34436");
+
+}if(jQuery("#uc_ue_accordion_menu_elementor34436").length) uc_ue_accordion_menu_elementor34436_start();
+	jQuery( document ).on( 'elementor/popup/show', (event, id, objPopup) => { 
+	if(objPopup.$element.has(jQuery("#uc_ue_accordion_menu_elementor34436")).length) uc_ue_accordion_menu_elementor34436_start();});	
+});</script>
+
+</body>
+</html>

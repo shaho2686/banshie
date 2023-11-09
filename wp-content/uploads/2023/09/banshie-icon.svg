@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.51 30.51">
+  <g id="a"></g>
+  <g id="b">
+    <g id="c">
+      <g>
+        <path d="M7.63,7.63L0,0V30.51H30.51l-7.63-7.63H7.63V7.63Z" fill="#fff"></path>
+        <path d="M22.88,22.88V7.63H7.63l15.26,15.26Z" fill="#adca2f"></path>
+      </g>
+    </g>
+  </g>
+</svg>
