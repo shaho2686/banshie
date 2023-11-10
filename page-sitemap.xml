@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>/</loc>
-		<lastmod>2023-11-09T09:24:04+00:00</lastmod>
+		<lastmod>2023-11-10T13:49:07+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/09/banshie-mobile-mask.png</image:loc>
 		</image:image>
@@ -83,22 +83,16 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>/news/</loc>
-		<lastmod>2023-10-30T10:02:34+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>/careers/</loc>
 		<lastmod>2023-11-02T09:54:59+00:00</lastmod>
 	</url>
 	<url>
+		<loc>/privacy-policy/</loc>
+		<lastmod>2023-11-09T06:38:11+00:00</lastmod>
+	</url>
+	<url>
 		<loc>/services/</loc>
-		<lastmod>2023-11-08T14:09:02+00:00</lastmod>
+		<lastmod>2023-11-10T06:12:17+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-2.svg</image:loc>
 		</image:image>
@@ -144,7 +138,7 @@
 	</url>
 	<url>
 		<loc>/offensive-services/</loc>
-		<lastmod>2023-11-08T14:12:04+00:00</lastmod>
+		<lastmod>2023-11-10T06:13:49+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/09/offensive-service-image.svg</image:loc>
 		</image:image>
@@ -167,6 +161,9 @@
 			<image:loc>/wp-content/uploads/2023/10/assume-breach-banshie-2.jpg</image:loc>
 		</image:image>
 		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/assume-breack-how-it-works.svg</image:loc>
+		</image:image>
+		<image:image>
 			<image:loc>/wp-content/uploads/2023/10/attack-path-mapping-banshie.jpg</image:loc>
 		</image:image>
 		<image:image>
@@ -176,7 +173,13 @@
 			<image:loc>/wp-content/uploads/2023/10/penetration-testing-banshie-3.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-circle-info.svg</image:loc>
+			<image:loc>/wp-content/uploads/2023/10/banshie-penetration-testing-icons-1.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-penetration-testing-icons-2.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-penetration-testing-icons-3.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/10/cloud-security-banshie.jpg</image:loc>
@@ -193,7 +196,7 @@
 	</url>
 	<url>
 		<loc>/defensive-services/</loc>
-		<lastmod>2023-11-08T15:56:59+00:00</lastmod>
+		<lastmod>2023-11-10T08:19:11+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/10/banshie-defensive-services.svg</image:loc>
 		</image:image>
@@ -237,7 +240,13 @@
 			<image:loc>/wp-content/uploads/2023/10/banshie-defensive-services-icons-4.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-defensive-key-objective.png</image:loc>
+			<image:loc>/wp-content/uploads/2023/11/banshie-defensive-icons-2.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/11/banshie-defensive-icons-3.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/11/banshie-defensive-icons-1.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-2.svg</image:loc>
@@ -283,8 +292,63 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>/blockchain-security/</loc>
+		<lastmod>2023-11-10T14:12:02+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-blockchain-security.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-blockchain-security.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-1.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-2.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-3.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-4.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-5.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-6.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-7.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-8.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-9.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-10.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-11.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-12.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/11/web3-penetration-testing.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>/managed-services/</loc>
-		<lastmod>2023-11-09T05:56:05+00:00</lastmod>
+		<lastmod>2023-11-10T14:45:03+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/10/banshie-managed-services.svg</image:loc>
 		</image:image>
@@ -295,16 +359,7 @@
 			<image:loc>/wp-content/uploads/2023/10/banshie-mdr.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-our-partners-2.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-our-partners-3.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-our-partners-1.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-mdr-1.svg</image:loc>
+			<image:loc>/wp-content/uploads/2023/11/banshie-mdr-3.png</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/10/banshie-attack-surface-monitoring-1.svg</image:loc>
@@ -317,66 +372,8 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>/red-team/</loc>
-		<lastmod>2023-11-09T06:12:06+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/tiber-mobile-bg.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/tiber-dk-banshie.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-tiber-objectives.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-global-cyber-security.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-1.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-2.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-3.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-4.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/companies-trust-banshie-6.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/companies-trust-banshie-5.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-2.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-3.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-4.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-1.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/companies-trust-banshie-6.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/companies-trust-banshie-5.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>/technology/</loc>
-		<lastmod>2023-11-09T06:17:06+00:00</lastmod>
+		<lastmod>2023-11-10T15:26:48+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/10/banshie-tech.svg</image:loc>
 		</image:image>
@@ -384,7 +381,7 @@
 			<image:loc>/wp-content/uploads/2023/10/banshie-tech.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-stlkr-2.svg</image:loc>
+			<image:loc>/wp-content/uploads/2023/11/banshie-stlkr-3.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/10/banshie-geist.svg</image:loc>
@@ -436,8 +433,81 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>/red-team/</loc>
+		<lastmod>2023-11-10T15:29:36+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/11/tiber-left.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/11/tiber-right.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/11/tiber-dk-red-teaming.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-tiber-objectives.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/11/tiber-dk-red-team-steps-2.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/11/tiber-dk-red-team-steps-3.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/11/tiber-dk-red-team-steps-4.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/11/tiber-dk-red-team-steps-5.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/11/tiber-dk-red-team-steps-1.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-1.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-2.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-3.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-4.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/companies-trust-banshie-6.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/companies-trust-banshie-5.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-2.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-3.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-4.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-1.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/companies-trust-banshie-6.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/companies-trust-banshie-5.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>/about/</loc>
-		<lastmod>2023-11-09T06:22:41+00:00</lastmod>
+		<lastmod>2023-11-10T15:35:00+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/10/banshie-about-page.svg</image:loc>
 		</image:image>
@@ -515,69 +585,20 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>/news/</loc>
+		<lastmod>2023-11-10T15:38:02+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>/contact/</loc>
-		<lastmod>2023-11-09T06:27:03+00:00</lastmod>
+		<lastmod>2023-11-10T15:52:59+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/10/banshie-map.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/privacy-policy/</loc>
-		<lastmod>2023-11-09T06:38:11+00:00</lastmod>
-	</url>
-	<url>
-		<loc>/blockchain-security/</loc>
-		<lastmod>2023-11-09T07:41:59+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-blockchain-security.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-blockchain-security.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-1.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-2.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-3.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-4.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-5.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-6.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-7.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-8.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-9.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-10.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-11.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-smart-connect-12.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-penetration-testing.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
