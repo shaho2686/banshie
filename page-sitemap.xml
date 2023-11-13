@@ -2,9 +2,33 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>/</loc>
-		<lastmod>2023-11-10T13:49:07+00:00</lastmod>
+		<lastmod>2023-11-13T15:17:27+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/09/banshie-mobile-mask.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/01.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/02.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/03.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/04.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/01.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/02.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/03.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/04.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/09/01.svg</image:loc>
@@ -91,52 +115,6 @@
 		<lastmod>2023-11-09T06:38:11+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/services/</loc>
-		<lastmod>2023-11-10T06:12:17+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-2.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/companies-trust-banshie-6.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/Digitaliseringsstyrelsen.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/24.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/aryzee.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/Banedanmark-mobile.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/Digitaliseringsstyrelsen.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/TDC.svg.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/Banedanmark-Logo_featured-image_2.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/hovedstaden-beredskab.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/24.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/aryzee.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>/offensive-services/</loc>
 		<lastmod>2023-11-10T06:13:49+00:00</lastmod>
 		<image:image>
@@ -195,8 +173,54 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>/services/</loc>
+		<lastmod>2023-11-13T08:08:24+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-2.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/companies-trust-banshie-6.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/Digitaliseringsstyrelsen.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/24.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/aryzee.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/Banedanmark-mobile.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/Digitaliseringsstyrelsen.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/TDC.svg.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/Banedanmark-Logo_featured-image_2.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/hovedstaden-beredskab.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/24.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/aryzee.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>/defensive-services/</loc>
-		<lastmod>2023-11-10T08:19:11+00:00</lastmod>
+		<lastmod>2023-11-13T09:49:16+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/10/banshie-defensive-services.svg</image:loc>
 		</image:image>
@@ -204,46 +228,37 @@
 			<image:loc>/wp-content/uploads/2023/10/banshie-defensive-services.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/incident-response-banshie-3.jpg</image:loc>
+			<image:loc>/wp-content/uploads/2023/10/incident-response-banshie-4.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/incident-response-banshie-2.svg</image:loc>
+			<image:loc>/wp-content/uploads/2023/11/banshie-incident-response-icons-2.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/incident-response-banshie-3.svg</image:loc>
+			<image:loc>/wp-content/uploads/2023/11/banshie-incident-response-icons-3.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/incident-response-banshie-4.svg</image:loc>
+			<image:loc>/wp-content/uploads/2023/11/banshie-incident-response-icons-4.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/incident-response-banshie-5.svg</image:loc>
+			<image:loc>/wp-content/uploads/2023/11/banshie-incident-response-icons-5.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/incident-response-banshie-6.svg</image:loc>
+			<image:loc>/wp-content/uploads/2023/11/banshie-incident-response-icons-6.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/incident-response-banshie-1.svg</image:loc>
+			<image:loc>/wp-content/uploads/2023/11/banshie-incident-response-icons-1.svg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/digital-forensic-banshie-2.jpg</image:loc>
+			<image:loc>/wp-content/uploads/2023/10/digital-forensic-banshie-3.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-malware-analysis-2.jpg</image:loc>
+			<image:loc>/wp-content/uploads/2023/10/banshie-malware-analysis-3.jpg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/10/banshie-defensive-services-icons-2.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/10/banshie-defensive-services-icons-7.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-defensive-services-icons-4.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/11/banshie-defensive-icons-2.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/11/banshie-defensive-icons-3.svg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/11/banshie-defensive-icons-1.svg</image:loc>
@@ -293,7 +308,7 @@
 	</url>
 	<url>
 		<loc>/blockchain-security/</loc>
-		<lastmod>2023-11-10T14:12:02+00:00</lastmod>
+		<lastmod>2023-11-13T15:35:52+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/10/banshie-blockchain-security.svg</image:loc>
 		</image:image>
@@ -348,7 +363,7 @@
 	</url>
 	<url>
 		<loc>/managed-services/</loc>
-		<lastmod>2023-11-10T14:45:03+00:00</lastmod>
+		<lastmod>2023-11-13T15:49:41+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/10/banshie-managed-services.svg</image:loc>
 		</image:image>
@@ -372,69 +387,8 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>/technology/</loc>
-		<lastmod>2023-11-10T15:26:48+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-tech.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-tech.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/11/banshie-stlkr-3.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-geist.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/banshie-samurai-3.gif</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-2.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/companies-trust-banshie-6.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/Digitaliseringsstyrelsen.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/24.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/aryzee.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/Banedanmark-mobile.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/Digitaliseringsstyrelsen.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/TDC.svg.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/Banedanmark-Logo_featured-image_2.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/hovedstaden-beredskab.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/24.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/10/aryzee.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>/red-team/</loc>
-		<lastmod>2023-11-10T15:29:36+00:00</lastmod>
+		<lastmod>2023-11-13T15:58:06+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/11/tiber-left.svg</image:loc>
 		</image:image>
@@ -506,8 +460,69 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>/technology/</loc>
+		<lastmod>2023-11-13T16:03:07+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-tech.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-tech.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/11/banshie-stlkr-3.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-geist.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/banshie-samurai-3.gif</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/companies-trust-banshie-2.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/companies-trust-banshie-6.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/Digitaliseringsstyrelsen.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/24.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/aryzee.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/Banedanmark-mobile.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/Digitaliseringsstyrelsen.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/TDC.svg.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/Banedanmark-Logo_featured-image_2.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/hovedstaden-beredskab.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/24.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/10/aryzee.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>/about/</loc>
-		<lastmod>2023-11-10T15:35:00+00:00</lastmod>
+		<lastmod>2023-11-13T16:10:21+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/10/banshie-about-page.svg</image:loc>
 		</image:image>
@@ -586,7 +601,7 @@
 	</url>
 	<url>
 		<loc>/news/</loc>
-		<lastmod>2023-11-10T15:38:02+00:00</lastmod>
+		<lastmod>2023-11-13T16:13:02+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/09/banshie-reach-out-1.jpg</image:loc>
 		</image:image>
@@ -596,7 +611,7 @@
 	</url>
 	<url>
 		<loc>/contact/</loc>
-		<lastmod>2023-11-10T15:52:59+00:00</lastmod>
+		<lastmod>2023-11-13T16:17:10+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/10/banshie-map.svg</image:loc>
 		</image:image>
